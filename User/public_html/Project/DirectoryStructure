@@ -1,0 +1,54 @@
+Directory Structure
+chatex - Contains png files and sounds, nothing special here.
+We can replace these later and add new ones. I am almost
+sure we will, unless we want our chat to look like MSN.
+
+chatfiles - The core development files of the project
+(this section will be elaborated on to provide a high-level
+view after more in-depth analysis)
+
+chattxt - Just some links to the parent site that this
+material was obtained from. Disregard, unless you are
+looking for tutorials. (Edit: this file is going to be
+replaced with the chat logs)
+
+readme - I suggest you read this. 
+
+Readme contents:
+	Requirements - describes the functional requirements,
+or objectives that this chat is supposed to accomplish. It
+states that the chat logs and perhaps other data can be 
+stored on a text file or on the server. Since we aim to make
+this project on the simple side, I recommend that we leave it
+as a file. If we decide we need the chat logs in database form
+for easier query later, that is an option that the developer 
+makes available for us easily. He states that, to avoid spam, 
+users cannot post identical posts within 3 seconds of each
+other. This seems like a very useful feature. We may want 
+to adapt it to reduce spam even further. 
+	He describes one of the ways he uses cookies, in order
+for the user to return and already have the nickname, chat, 
+and the on/off beep setting saved. These will almost certainly 
+need to be adapted, and integrated with thelogin system.
+
+Installation - Describes how to switch from text file storage 
+to database storage. He states that there are initially two chatrooms: 
+English, and Nature. In terms of functionality, this makes it easily 
+possible to add multiple chat rooms, with some caveats. We do not want
+the chat rooms to be displayed in tabs as it is shown, but rather in
+different rooms. This sounds like a big adjustment, but I do not believe
+it will be in practice. He describes how to install the chat, which was 
+as easy as copy and pasting the directory contents onto the server.  He 
+describes the proper file permissions, which we will eventually want to
+configure for security. A basic create tables file for configuring an
+sql chat log is provided. An embed for the chat is provided, can be used
+to embed the chat in multiple places. 
+
+Admin Settings - From here he states that chat settings can be changed by 
+defining what appear to be global variables for settings. I’m not sure this
+is going to work for us in practice. The location of where sounds are
+referenced is provided, and how to change that file to add sounds.
+Describes a means by which chatroom logs can be stored dynamically in
+directories, not sure what he means by that at this moment. 
+
+test.html - A test that demonstrates something, I’m not sure what.

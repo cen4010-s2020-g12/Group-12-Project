@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Ajax - PHP Script Chat CoursesWeb.net</title>
+</head>
+<body>
+<center><h2>Ajax - PHP Chat Script</h2></center>
+This is a simple script for Chat, made with PHP and Javascript, using OOP and Ajax technology.
+<h4>Requirements</h4>
+- PHP 5.4+<br>
+- Browser with JavaScript enabled.<br><br>
+
+This Chat script can save chat data in MySQL database or in text files on server, and it uses verry few server's resources.<br>
+The chat can be included directly in the html code.<br>
+The user can add smiles in chat, and can format the text with Bold, Italic, an Underline., you can test it online to this link: <a href="http://coursesweb.net/php-mysql/script-chat-simple_s2" title="Script Chat Simple">Script Chat Simple</a><br>
+To avoid spam, the user can not add two identically texts one after another, and he can add the next text in chat after 3 seconds.<br>
+The nickname, chat room, and the On / Off setting for beep sound are saved in cookies, so, to the next visit they will be read and used from cookie.<br>
+The script has been tested successfully on Mozilla Firefox, Internet Explorer, Google Chrome and Opera.<br>
+&bull; - <i>This script is free (<b>does not provide support or personal modifications</b>).</i>
+<h4>Installation</h4>
+1. If you want to store chat data in mysql, open the "<b>setchat.php</b>" file (in the "chatfiles/" folder) and add your data for connecting to MySQL database in the <b>$mysql</b> array (line 8).<br>
+2. Set <b>'mysql'</b> value to the <b>STORAGE</b> constant (line 10).<br>
+3. If you want to store chat data in text files on server, let the value <b>'file'</b> to the STORAGE constant.<br>
+4. The script initially contains two chat rooms: English, and Nature. To Add /Modify /Delete chat-room, edit the values in the <b>$chatrooms</b> array.<br>
+5. Copy on your server the directories: "<b>chatfiles</b>", "<b>chattxt</b>", and "<b>chatex</b>" (with all their files, in the same directory where you have the file in which you want to include the chat). <i>The "test.html" file is for test.</i><br>
+6. If you want to store chat data in text files, set read-write-execute permissions to the directory "<b>chattxt</b>", CHMOD 0777 (or 0755). In this directory the PHP will save text files with the chat for each chatroom.<br>
+7. If you have set to save data in MySQL, access the "<b>create_tables.php</b>" file (in the "chatfiles/" folder) in your server. For example:
+<blockquote><b>http://localhost/chatfiles/create_tables.php</b></blockquote>
+8. In the page in which you want to include this chat script, just add the following code:
+<ul style="background:yellow;font-weight:700;">&lt;div id=&quot;chatarea&quot; data-style=&quot;auto&quot;&gt;&lt;/div&gt;<br>
+&lt;script type=&quot;text/javascript&quot; src=&quot;chatfiles/chatfunctions.js&quot;&gt;&lt;/script&gt;</ul>
+- In the <b>data-style</b> attribute you can add one of these values:<br>
+<ul>
+<li><b>large</b> - the chat is displayed in large area (width 600px).</li>
+<li><b>mini</b> - the chat is displayed in a smaller area (width 245px).</li>
+<li><b>auto</b> - the chat changes its style (large or mini) according to window width.</li>
+</ul>
+<h4>Admin Settings</h4>
+- In the "setchat.php" file you can change the default settings.<br />
+- By default, the script displays the last 40 rows of chat, you can change this number to the line of code:
+<ul><b>define('MAXROWS', 40);</b></ul>
+- The script allows users to add links in chat (with attribute <i>rel="nofallow"</i>), but if you want to remove this feature, replace the number 1 with 0, to the line of code:
+<ul><b>define('CHATLINK', 1);</b></ul>
+<div style="background:#ededfe;">
+- To the following line of code you can set a password used when you want to empty chat rooms (<i>replace "adminpass" with the password you want</i>):
+<ul><b>define('CADMPASS', 'adminpass');</b></ul>
+- To empty chat rooms, access in your browser the file <b>chatfiles/setchat.php</b> with <b>?mod=admin</b> in URL. For example:
+<blockquote><b>http://localhost/chatfiles/setchat.php?mod=admin</b></blockquote>
+Then select the Chat Room you want to empty, and use the password set to CADMPASS.</div><br>
+<div style="background:yellow;">
+- If your web site has a register /login script, and you want than only the logged users to can add texts in chat, set the value of <b>CHATADD</b> to 0 . Then set <b>$_SESSION['username']</b> with the session your script uses to keep logged users; to the following code, in "setchat.php".
+<ul><b>define('CHATADD', 1);<br>
+if(!isset($_SESSION)) session_start();<br>
+if(CHATADD !== 1) {<br> &nbsp; &nbsp;
+  if(isset($_SESSION['username'])) define('CHATUSER', $_SESSION['username']);<br>
+}</b></ul></div>
+In the directory "chatex/" there are two additional WAV files: "<b><i>beep2.wav</i></b>", and "<b><i>beep3.wav</i></b>". By default, the script uses "<b>beep1.wav</b>". In case you want to change the audio sound that is played when a new text chat is added in chat room, change in "<b>chatfunctions.js</b>" file (line 14) the value of the variable:
+<ul><b>var beepfile = 'beep1.wav';</b></ul>
+- In MySQL database, the script creates a table 'chat_users' that stores online users, and a table "chat_ROOM_NAME" for each chat-room.<br><br>
+<div style="background:#ededfe;">
+The "<b>chattxt/</b>" is the default directory in which the text files with chatrooms are stored, but you can also use sub-folders added in "chattxt/" to store and use the files.<br>
+- The sub-folder can be set in the <b>$c_subdir</b> variable (defined in "setchat.php" line 21), default is empty. This is useful if you want to use dinamically directory with chatrooms.<br>
+- The script creates automatically the sub-folder in "chattxt/", with the name added in $c_subdir and CHMOD 0755.</div><br>
+The script can create automatically the text files for each chat room (with data in JSON format), but PHP must have writable permissions (CHMOD 0777, or 0755) in the "chattxt" directory (and sub-folders).<br>
+The script can be easily changed to be used in other languages, just translate the text in the file "<b>texts.php</b>" (in "chatfiles/" folder).<br>
+If you want to modify the colors and design of the chat, edit CSS properties in "<b>chatstyle.css</b>" (or "<b>chatstyle_mini.css</b>", the mini-version), in "chatfiles/" folder.<br>
+
+The file "<b>chatstyle_mini.css</b>" can be used for a smaller graphics version of this chat script (<i>width 245 px</i>). In this version, to save space, the area with online users is not displayed.<br><br><br>
+<i>With Joy,<br>
+Marius</i><br>
+ &nbsp; &nbsp; <a href="http://www.marplo.net/" title="Flash Games and Free courses">MarPlo.net</a> / <a href="http://coursesweb.net/" title="Web Programming Courses">CoursesWeb.net</a><br><br>
+</body>
+</html>

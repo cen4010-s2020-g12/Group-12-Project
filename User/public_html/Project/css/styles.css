@@ -1,0 +1,45 @@
+div.a {
+  display: inline-block; 
+  overflow: hidden;
+}
+
+div.b {
+  width: 20%;
+  float: left;
+  padding: 20px;
+  height: 700px;
+  text-align: center;
+  border: 0px;
+  border-right: 1px;
+  border-bottom: 1px;
+  border-style: solid;
+}
+
+div.b a {
+  display: block;
+  margin: 20px;
+}
+
+div.c {
+  min-width: 1535px;
+}
+
+h1.d {
+	margin: 0px;
+	padding-left: 15px;
+}
+
+div.e {
+  height: 700px;
+  overflow-y: scroll;
+  padding-left: 15px;
+}
+
+body {
+  overflow-y: hidden;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
