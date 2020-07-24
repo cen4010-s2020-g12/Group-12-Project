@@ -66,7 +66,6 @@
   </style>
 
 </head>
-<body>
 <!--<div id="content" />-->
 <body>
 <nav class="navbar navbar-inverse">
@@ -95,16 +94,66 @@
  
 <div class="container-fluid text-center">    
   <div class="row content">
-    <div class="col-sm-1">
-    </div>
-    <div class="col-sm-8 text-left">
+    
+    <div class="col-sm-6">
       <h1>Welcome</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <hr>
-      <h3>Test</h3>
-      <p>Lorem ipsum...</p>
+      <div id="player"></div>
+
+    <script>
+      // 2. This code loads the IFrame Player API code asynchronously.
+      var tag = document.createElement('script');
+
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+      // 3. This function creates an <iframe> (and YouTube player)
+      //    after the API code downloads.
+
+
+        // -----------------------------------------
+        var player;
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+          height: '390',
+          width: '640',
+          videoId: 'M7lc1UVf-VE',
+          events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+
+        //------------------------------------------------
+          }
+        });
+
+
+      }
+
+      // 4. The API will call this function when the video player is ready.
+      function onPlayerReady(event) {
+        event.target.playVideo();
+        player.loadVideoById("avcGP0FAzB8", 5, "large");
+      }
+
+
+
+      // 5. The API calls this function when the player's state changes.
+      //    The function indicates that when playing a video (state=1),
+      //    the player should play for six seconds and then stop.
+      var done = false;
+      function onPlayerStateChange(event) {
+        if (event.data == YT.PlayerState.PLAYING && !done) {
+          setTimeout(stopVideo, 6000);
+          done = true;
+        }
+      }
+      function stopVideo() {
+        player.stopVideo();
+      }
+
+    </script>
     </div>
-    <div class="col-sm-3 sidenav">
+    <div class="col-sm-2">
         <h1>Chat</h1>
          <div id="chatarea" data-style="auto"></div>
            <script type="text/javascript" src="chatfiles/chatfunctions.js"></script>
@@ -117,7 +166,6 @@
 <footer class="container-fluid text-center">
   <p>Footer Text</p>
 </footer>
-</body>
 
 </body>
 </html>
