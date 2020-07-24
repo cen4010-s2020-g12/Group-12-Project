@@ -2,7 +2,7 @@
 // PHP Script Chat - http://coursesweb.net/
 
 // HERE create the rooms for chat (Maximum 30 characters)
-$chatrooms = ['English', 'Nature'];
+$chatrooms = ['English'];
 
 //Data for connecting to mysql database (mysql server, username, password, database name)
 $mysql = [ 'host'=>'localhost', 'user'=>'root', 'pass'=>'password', 'bdname'=>'db_name' ];

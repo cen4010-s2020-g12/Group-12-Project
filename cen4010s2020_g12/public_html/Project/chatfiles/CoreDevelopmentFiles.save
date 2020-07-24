@@ -1,0 +1,36 @@
+Language Glossary:
+echo - basic print statement for php to write contents. When executed from a file on a web server, it embeds the
+contents on the page. 
+
+ob_start - This function will turn output buffering on. While output buffering is active no output is sent from the
+script (other than headers), instead the output is stored in an internal buffer. The contents of this internal 
+buffer may be copied into a string variable using ob_get_contents(). To output what is stored in the internal 
+buffer, use ob_end_flush(). Alternatively, ob_end_clean() will silently discard the buffer contents.
+
+Files:
+chat_form.php - Creates a post form. onsubmit it calls addChatS targeting this form. It then creates a div
+encapsulating the form. It uses php to create an input, and saves a reference to the input as chatrooms[0].
+
+Language Glossary:
+echo - basic print statement for php to write contents. When executed from a file on a web server, it embeds the
+contents on the page.
+
+ob_start - This function will turn output buffering on. While output buffering is active no output is sent from the
+script (other than headers), instead the output is stored in an internal buffer. The contents of this internal
+buffer may be copied into a string variable using ob_get_contents(). To output what is stored in the internal
+buffer, use ob_end_flush(). Alternatively, ob_end_clean() will silently discard the buffer contents.
+
+Files:
+chat_form.php - Creates a post form. onsubmit it calls addChatS targeting this form. It then creates a div
+encapsulating the form. It uses php to create an input, and saves a reference to the input as chatrooms[0].
+Files:
+chat_form.php - Creates a post form. onsubmit it calls addChatS targeting this form. It then creates a div
+encapsulating the form. It uses php to create an input, and saves a reference to the input as chatrooms[0].
+echo - basic print statement for php to write contents. When executed from a file on a web server, it embeds the
+contents on the page.
+
+ob_start - This function will turn output buffering on. While output buffering is active no output is sent from the
+script (other than headers), instead the output is stored in an internal buffer. The contents of this internal
+buffer may be copied into a string variable using ob_get_contents(). To output what is stored in the internal
+buffer, use ob_end_flush(). Alternatively, ob_end_clean() will silently discard the buffer contents.
+

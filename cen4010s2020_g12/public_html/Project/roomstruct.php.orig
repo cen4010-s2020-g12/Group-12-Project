@@ -1,0 +1,51 @@
+<?php
+class Singleton {
+  // Hold the class instance.
+  private static $instance = null;
+  private $queue;
+  private $x;
+  // The constructor is private
+  // to prevent initiation with outer code.
+  private function __construct()
+  {
+    $this -> queue = new SplQueue();
+    $this -> queue -> enqueue('A');
+    $this -> queue -> enqueue('B');
+    $this -> queue -> enqueue('C');
+  }
+ 
+  // The object is created from within the class itself
+  // only if the class has no instance.
+  public static function getInstance()
+  {
+    if (self::$instance == null)
+    {
+      self::$instance = new Singleton();
+    }
+ 
+    return self::$instance;
+  }
+  
+  public function getqueue()
+  {
+    return $this->queue;
+  }
+}
+
+function serializeroom()
+{
+    $s = Singleton::getInstance();
+    $serialized = serialize($s);
+    file_put_contents('serializedroom', $serialized);
+}
+
+function unserializeroom()
+{
+    $s = file_get_contents('serializedroom');
+    $unserialized = unserialize($s);
+    $object1 = $unserialized::getInstance();
+    echo($object1->printqueue());
+}
+    $s = Singleton::getInstance();
+    echo(print_r($s->getqueue()));
+?>
