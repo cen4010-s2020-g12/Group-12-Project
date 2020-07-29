@@ -1,535 +1,3 @@
-passwd
-cd ~
-ls
-chmod 755 public_html
-echo "Hello World" >> ~/public_html/index.html
-mysql -u root -p
-mysql -u root
-mysql -u
-mysql
-cat ~/.my.cnf
-mysql -u cen4010s2020_g12 -p
-php -version
-ls
-cd public_html/
-ls
-cd Project/
-ls
-cd php-chat-app-master/
-ls
-php -S localhost:3000 -t public
-php socket_server.php stop
-php -S localhost:3000 -t public
-php socket_server.php start
-ls
-cd ..
-ls
-cd simple-php-chat-using-websocket/
-ls
-nano index.php 
-ifconfig
-ls
-cd ..
-ls
-cd ..
-ls
-cd ..
-ls
-cd ..
-ls
-cd mverger
-ls
-cd ..
-ls
-cd ~
-ls
-cd public_html/
-ls
-cd phpfreechat-2.1.0/
-ls
-danielmartin2017     johnfloyd2016     nsultan2015       zhuy2013
-cen4010s2020_g12ss
-php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
-php -r "if (hash_file('sha384', 'composer-setup.php') === 'e5325b19b381bfd88ce90a5ddb7823406b2a38cff6bb704b0acc289a09c8128d4a8ce2bbafcd1fcbdc38666422fe2806') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
-php composer-setup.php
-php -r "unlink('composer-setup.php');"
-mkdir php-sockets && cd php-sockets
-ls
-cd ..
-;s
-ls
-rmdir -r php-sockets
-rmdir -R php-sockets
-rmdir php-sockets
-ls
-cd public_html/
-ls
-cd Project/
-ls
-cd phplivechat/
-rm -R ..
-rm -R .
-ls
-rm 1-client.html 
-mkdir php-sockets && cd php-sockets
-touch composer.json index.html app.php
-mkdir app && cd app && touch socket.php
-ls
-cd ..
-ls
-nano composer.json 
-composer install
-apt-get install composer
-php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
-php -r "if (hash_file('sha384', 'composer-setup.php') === 'e5325b19b381bfd88ce90a5ddb7823406b2a38cff6bb704b0acc289a09c8128d4a8ce2bbafcd1fcbdc38666422fe2806') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
-php composer-setup.php
-php -r "unlink('composer-setup.php');"
-ls
-php composer.phar
-ls
-nano composer.json
-php composer.phar install
-ls
-cd ..
-ls
-cd php-sockets/
-ls
-cd app
-ls
-nano socket.php 
-ls
-cd ..
-ls
-nano app.php 
-cd ..
-ls
-cd php-sockets/
-;s
-ls
-nano index.html 
-php app.php 
-ls
-cd ..
-ls
-cd php-sockets/
-cd app
-;s
-ls
-cd ..
-ls
-nano app.php 
-ls
-cd app
-ls
-cd ..
-ls
-nano app.php 
-php app.php 
-nano app.php 
-php app.php 
-ls
-cd app
-ls
-mv socket.php Socket.php
-ls
-cd ..
-ls
-php app.php 
-composer dumpautoload
-ls
-php composer.phar dumpautoload
-php app.php 
-ls
-cd ..
-ls
-cd ..
-ls
-cd ratchet-php-websocket-server-starter-master/
-ls
-php app.php
-/vendor/autoload.phpls
-ls
-composer install
-ls
-cd ..
-ls
-cd phplivechat/
-ls
-cd php-sockets/
-ls
-mv composer.phar /usr/local/bin/composer
-php composer.phar install
-cd ..
-ls
-cd ..
-ls
-cd ratchet-php-websocket-server-starter-master/
-ls
-php composer-setup.php --install-dir=bin --filename=composer
-php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
-php -r "if (hash_file('sha384', 'composer-setup.php') === 'e5325b19b381bfd88ce90a5ddb7823406b2a38cff6bb704b0acc289a09c8128d4a8ce2bbafcd1fcbdc38666422fe2806') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
-php composer-setup.php
-php -r "unlink('composer-setup.php');"
-ls
-php composer.phar install
-php app.php
-'MyApp\Socket' not fo
-ls
-cd app
-ls
-cd ..
-nano app.php 
-ls
-php app.php
-ls
-nano app.php 
-ls
-cd ..
-ls
-cd PHPWebSocket-Chat-master/
-ls
-php server.php 
-php gethostbyaddr(gethostbyname($_SERVER['SERVER_NAME']))
-ifconfig
-curl ifconfig.me
-ls
-nano server.php 
-php server.php 
-ls
-nano fancywebsocket.js 
-ls
-nano index.html 
-ls
-php server.php
-ls
-cd ..
-;s
-ls
-cd ..
-ls
-cd Project/
-;s
-ls
-cd php-chat-app-master/
-ls
-php -S localhost:3000 -t public
-php -S localhost:3000 -t public &
-ls
-cd ..
-ls
-cd simple-php-chat-using-websocket/
-ls
-php php-socket.php 
-ls
-nano index.php
-php php-socket.php 
-nano index.php
-php php-socket.php 
-nano index.php
-php php-socket.php 
-nano index.php
-php php-socket.php 
-nano index.php
-ls
-nano php-socket.php 
-cd ..
-ls
-cd Chat/
-ls
-chmod -R 777 .
-ls
-cd ..
-ls
-cd ..
-ls
-nano index.html 
-ls
-chmod -R 777 phpfreechat-2.1.0/
-ls
-cd phpfreechat-2.1.0/
-ls
-nano check.php 
-cd ..
-ls
-cd Project/
-ls
-cd Chat/
-ls
-cd
-ls
-cd public_html/
-ls
-chmod -R 777 Project
-ls
-cd Project/
-ls
-cd Chat/
-ls
-dir
-pwd
-mysql
-ls
-cd public_html
-ls
-cd Project
-;s
-ls
-[cen4010s2020_g12@lamp ~]$ ls
-composer.phar  public_html
-[cen4010s2020_g12@lamp ~]$ cd public_html
-[cen4010s2020_g12@lamp public_html]$ ls
-about  check.php  css  images  index.html  package.json  Project  README.md
-[cen4010s2020_g12@lamp public_html]$ cd Project
-[cen4010s2020_g12@lamp Project]$ ;s
--bash: syntax error near unexpected token `;'
-[cen4010s2020_g12@lamp Project]$ ls
-Chat
-
-
-
-
-touch DirectoryStructure
-ls
-rm DirectoryStructure 
-cd Chat
-touch DirectoryStructure
-nano DirectoryStructure
-[cen4010s2020_g12@lamp Chat]$ touch DirectoryStructure
-[cen4010s2020_g12@lamp Chat]$ nano DirectoryStructure
-gedit
-yum install atom
-emacs
-emacs26
-yum list installed
-nautilus .
-gnome-open .
-yum install gnome
-systemctl get-default
-uname
-uname -n
-uname -v
-uname -r
-2.6.32-696.13.2.el6.x86_64
-nautilus .
-open .
-xdg-open
-xdg-open .
-gedit
-nano
-yum list installed
-xauth.vim-enhanced.texinfo.x86_64texinfo.x86_64texinfo.x86_64texlive.x86_64gnutls.x86_64
-yum install gnome
-sudo yum install gnome
-vi 
-ls
-cd public_html/
-ls
-cd Project
-ls
-cd Chat
-ls
-vi DirectoryStructure 
-nano DirectoryStructure 
-ls
-cat DirectoryStructure 
-nano DirectoryStructure 
-ls
-cd chatfiles/
-ls
-cat chat_form.php
-nano chat_form.php 
-ls
-cd public_html/
-ls
-cd Project/
-;s
-ls
-cd Chat
-ls
-cd chatfiles
-ls
-touch CoreDevelopmentFiles
-ls
-nano CoreDevelopmentFiles 
-mysql
-sql
-mysql
-INSERT INTO User (username, password, email) VALUES ("dog", "1234", "thedog@dogs.com");
-INSERT INTO User(username, password, email) VALUES("dog", "1234", "thedog@dogs.com");
-INSERT INTO User(username, password, email)
-mysql
-mysql> show databases;
-+--------------------+
-| Database           |
-+--------------------+
-| information_schema |
-| cen4010s2020_g12   |
-| test               |
-+--------------------+
-3 rows in set (0.29 sec)
-ls
-cd public_html/
-ls
-cd Project/
-ls
-ls
-mysql
-ls
-cd public_html/
-ls
-cd Project/
-ls
-cd Chat
-ls
-pwd
-ls
-cd chatfiles
-ls
-pwd
-ls
-cd ..
-ls
-cd chattxt
-ls
-cat English.json
-nano English.json 
-mysql
-ls
-cd public_html/
-ls
-cd Project/
-ls
-cd Chat/
-ls
-cat test.html 
-ls
-cd ..
-ls
-cat test.php 
-ls
-cd ..
-ls
-ls
-cd public_html/
-ls
-cd Project/
-ls
-cat test.php 
-ls
-cd public_html/
-ls
-cd Project/
-ls
-pwd
-ls
-cd public_html/
-ls
-cd Project/
-ls
-owd
-pwd
-ls
-cd public_html/
-ls
-xd Project/
-ls
-cd Project/
-ls
-cd Chat/
-ls
-cd chatfiles/
-ls
-cat index.htm 
-ls
-cd public_html/
-ls
-cd Project/
-ls
-cd Chat/
-ls
-cat test.html 
-ls
-cd ..
-ls
-cp test.php test.php.orig
-ls
-nano test.php
-vi test.php
-ls
-pwd
-ls
-cd Chat
-ls
-pwd
-vi test.php
-cd ..
-ls
-vi test.php
-ls
-vi test.php
-ls
-cd Chat/
-ls
-cd ..
-ls
-cp Chat/* .
-cp -R Chat/* .
-ls
-cd chatfiles/
-ls
-cd ..
-ls
-cat test.html
-ls
-pwd
-chmod 777 PHPChat
-ls
-cd PHPChat/
-ls
-cd ..
-ls
-service apache2 restart
-cd PHPChat/
-ls
-cd chatfiles
-ls
-vi setchat.php 
-ls
-cd ..
-ls
-chmod 0777 chattxt
-ls
-cd ..
-ls
-cd PHPChat/
-ls
-rm -R Chat/
-cd ..
-ls
-cp -R PHPChat/*
-cp PHPChat/* .
-cp -R PHPChat/* .
-ls
-chmod 0777 chattxt
-pwd
-ls
-cd PHPChat/
-ls
-cd ..
-ls
-CHMOD 0777 chattxt/
-chmod 0777 chattxt/
-ls
-cd PHPChat/
-ls
-cd ..
-ls
-cp test.php PHPChat/test.php
-cd ..
-ls
-cd Project/
-ls
-cd ..
 ls
 chmod 777 Project
 cd Project/
@@ -721,3 +189,812 @@ cat indexC.html
       }
 
 
+ls
+ls -a
+rm -R .git
+ls
+ls -a .
+git pull https://github.com/cen4010-s2020-g12/Group-12-Project/tree/milestone-3
+ls
+cd public_html/
+ls
+cd Project/
+ls
+cat indexC.html
+cd ..
+cat indexC.html 
+ls
+cd about
+ls
+cd ..
+ls
+vi index.html 
+ls
+cd public_html/
+ls
+cat index
+cat index.html 
+ls
+cd css
+ls
+cd ..
+ls
+cat index.html 
+ls
+vi index.html
+rm index.html
+ls
+touch index.html
+vi index.html
+ls
+vi index.html
+ls
+cd Project/
+ls
+vi roomload.php 
+ls
+cat roomstruct.php 
+ls
+cd public_html/
+ls
+cd Project/
+ls
+cd ..
+ls
+rm indexC.html 
+cd Project/
+ls
+mv index.html index.php
+ls
+cat index.php
+vi index.php
+rm index.php 
+touch index.php
+vi index.php 
+rm index.php 
+vi index.php 
+cat index.php 
+rm index.php 
+vi index.php 
+vi roomload.php
+vi queuestruct.php
+ls
+vi roomstruct.php
+ls
+vi roomstruct.php
+$a = new A;
+  $s = serialize($a);
+  // store $s somewhere where page2.php can find it.
+vi roomstruct.php
+ls
+cat index.php
+ls
+cat roomload.php
+cat roomstruct.php
+vi roomstruct.php
+ls
+cd public_html/
+ls
+cd Project/
+ls
+cat roomstruct.php
+vi roomstruct.php
+ls
+vi roomload.php 
+ls
+cd public_html/
+ls
+cd Project/
+ls
+cat serializedroom 
+ls
+cat roomstruct.php
+vi roomstruct.php 
+ls
+cat serializedroom 
+vi roomstruct.php 
+cp roomstruct.php roomstruct.php.orig
+ls
+vi roomstruct.php
+cat roomstruct.php
+<?php
+    $queue = new SplQueue();
+    $queue -> enqueue('A');
+    $queue -> enqueue('B');
+    $queue -> enqueue('C');
+function serializequeue($vidqueue)
+{     $serialized = serialize($vidqueue);
+    file_put_contents('serializedqueue', $serialized);
+}
+function unserializequeue() {     $s = file_get_contents('serializedqueue');
+    $unserialized = unserialize($s);
+    echo(print_r($unserialized));
+}
+    unserializequeue();
+?>
+ls
+cat roomstruct.php
+ls
+cat roomload.php 
+cat index.php
+vi roomload.php 
+ls
+can index.php
+cat index.php
+ls
+cat roomstruct.php
+vi roomstruct.php
+ls
+cat serializedroom
+cat serializedqueue
+ls
+vi roomstruct.php
+ls
+cat index.php
+cat roomload.php
+vi roomload.php 
+ls
+vi roomstruct.php
+vi roomload.php 
+ls
+vi roomload.php 
+vi roomstruct.php
+vi roomload.php 
+vi roomstruct.php
+ls
+cd public_html/
+ls
+cd Project/
+ls
+cat roomload.php
+vi roomload.php 
+ls
+chmod 777 chattxt/.
+chmod 777 chattxt
+CHMOD 0777 chattxt
+chmod 0777 chattxt
+cd VerticalPrototype/
+ls
+cd ..
+ls
+cd ..
+chmod 0755 Project
+cd Project/
+ls
+chmod 0777 chattxt
+ls
+cat index.php 
+vi roomload.php 
+ls
+cd VerticalPrototype/
+ls
+ls -la
+cd ..
+ls -la
+ls
+chmod 0755 chattxt
+chmod -R 0755 chattxt
+cd VerticalPrototype/
+ls
+cat test.php 
+ls
+cd ..
+ls
+cp -R VerticalPrototype VerticalPrototype2
+cd VerticalPrototype2
+ls
+chmod -R 0777 chattxt
+cat test.php 
+<div id="chatarea" data-style="auto"></div>
+ls
+cd ..
+ls
+vi roomload.php 
+chmod -R 600 .
+ls
+chmod -R 777 .
+ls
+cd ..
+ls
+cd Project/
+chmod -R 0755 .
+cd Project/
+ls
+rm serializedqueue
+ls
+rm serializedroom 
+ls
+chmod 0777 chattxt
+ls
+cd VerticalPr
+cd VerticalPrototype
+ls
+cp -R chattxt ../chattxt
+cd ..
+ls
+cd chattxt
+ls
+cd VerticalPrototype
+cd ..
+ls
+cd VerticalPrototype
+cp chat* ../chat*
+cd ..
+ls
+rm -R chatex
+rm -R chattxt
+rm -R chatfiles
+ls
+cd VerticalPrototype
+ls
+cp -R chatex ../..
+cp -R chatfiles ../..
+cp -R chattxt ../..
+cd ../..
+ls
+cd Project
+ls
+cat roomload.php 
+ls
+cd VerticalPrototype
+ls
+cat test.php
+<div id="chatarea" data-style="auto"></div>
+ls
+cd ..
+ls
+cd ..
+ls
+cp -R chatex Project
+cp -R chatfiles Project
+cp -R chattxt Project
+ls
+chmod 777 chattxt
+cd Project/
+chmod 777 chattxt
+ls
+cd ..
+ls
+chmod 0777 chattxt
+cd Project/
+chmod 0777 chattxt
+cd ..
+ls
+chmod 777 chattxt
+chmod -R chattxt/
+chmod -R chattxt
+chmod -R 777 chattxt
+cd Project/
+chmod -R 777 chattxt
+cd ..
+ls
+rm -R chatex
+rm -R chatfiles
+rm -R chattxt
+ls 
+cd Project/
+ls
+rm -R VerticalPrototype2
+vi roomload.php 
+ls
+cd chatfiles
+ls
+vi class.ChatSimple.php 
+ls
+cd ..
+ls
+cd chatfiles/
+ls
+vi setchat.php 
+ls
+cd ..
+ls
+cd ,,
+ls
+vi index.php 
+ls
+vi roomload.php 
+ls
+vi index.php
+ls
+vi roomload.php 
+vi index.php
+ls
+vi roomload.php 
+ls
+cd public_html/
+ls
+cd Project/
+ls
+roomstruct.phpcat roomstruct.php
+cat roomstruct.php
+vi roomstruct.php
+vi roomload.php 
+vi roomstruct.php
+vi roomload.php 
+vi roomstruct.php
+vi roomload.php 
+vi roomstruct.php
+vi roomload.php 
+vi roomstruct.php
+vi roomload.php 
+vi roomstruct.php
+vi roomload.php 
+vi roomstruct.php
+vi roomload.php 
+vi roomstruct.php
+vi roomload.php 
+vi roomstruct.php
+ls
+cd public_html/
+ls
+cd Project/
+ls
+cat index.php 
+ls
+cat index.php
+cat roomload.php 
+vi roomload.php 
+ls
+vi roomstruct.php
+vi roomload.php 
+rm roomload.php 
+vi roomload.php
+touch serializedqueue
+chmod 777 serializedqueue
+vi roomload.php
+ls
+vi index.php
+vi roomload.php
+vi roomstruct.php
+telnet 127.0.0.1 1234
+build
+cmake
+ls
+cd other_files/
+vi my-program
+websocketd --port=8080 my-program
+./websocketd --port=8080 my-program
+ls
+mv my-program webocketd/
+cd webocketd/
+ls
+./websocketd --port=8080 my-program
+./websocketd
+websocketd
+cd /usr
+cd local
+cd bin
+cp ~/other_files/webocketd/websocketd .
+ls
+ cd ~
+ls
+cd public_html/
+ls
+cd Project/
+ls
+vi roomstruct.php
+curl
+ls
+cd ..
+ls
+cd ..
+ls
+cd other_files/
+ls
+rm -R webocketd/
+cd ~/public_html/Project/
+vi videoandtime.php
+php videoandtime.php 
+vi videoandtime.php
+sql
+mysql
+ls
+vi videoandtime.php
+rm videoandtime.php 
+vi encodevideoandtime.php
+touch encodedvideo
+chmod 777 encodevideo
+chmod 777 encodedvideo
+ls
+cat encodedvideo 
+vi encodevideoandtime.php
+cat encodedvideo 
+vi encodevideoandtime.php
+curl https://www.googleapis.com/youtube/v3/videos?id=9bZkp7q19f0&part=contentDetails&key=AIzaSyBiI3RW4tTmXKWV1GyUU8IsLUyfzBHVuAE
+vi encodevideoandtime.php
+ls
+cat encodedvideo 
+vi encodevideoandtime.php
+cat encodedvideo 
+vi encodevideoandtime.php
+ls
+car encodedvideo 
+cat encodedvideo 
+cat encodevideoandtime
+cat encodevideoandtime.php
+<?php
+function encodevideo($vidurl)
+{     file_put_contents('encodedvideo', $vidurl);
+    parse_str( parse_url( $vidurl, PHP_URL_QUERY ), $my_array_of_vars );
+    $ytid =  $my_array_of_vars['v'];
+    $encodedjson = file_get_contents("https://www.googleapis.com/youtube/v3/videos?id=".$ytid."&part=contentDetails&key=AIzaSyBiI3RW4tTmXKWV1GyUU8IsLUyfzBHVuAE");
+    $decodedjson = json_decode($encodedjson);
+    $encodedtime = $decodedjson->items[0]->contentDetails->duration;
+    $hourpos = strpos($encodedtime,'H')+1;
+    $minutepos = strpos($encodedtime, 'M')+1;
+    $secondpos = strpos($encodedtime, 'S')+1;
+    $timeinseconds = 0;
+    if($hourpos-1) {
+        $timeinseconds+=((int)substr($encodedtime,2,$hourpos))*60*60;
+        $timeinseconds+=((int)substr($encodedtime,$hourpos,$minutepos-$hourpos-1))*60;
+        $timeinseconds+=((int)substr($encodedtime,$minutepos,$secondpos-$minutepos-1));
+    }
+    else if ($minutepos-1) {
+        $timeinseconds+=((int)substr($encodedtime,2,$minutepos))*60;
+        $timeinseconds+=((int)substr($encodedtime,$minutepos,$secondpos-$minutepos-1));
+    }
+    else {
+        $timeinseconds+=((int)substr($encodedtime,2,$secondpos));
+    }
+    file_put_contents('encodedvideo', $vidurl . ',' . $timeinseconds);
+}
+encodevideo("https://www.youtube.com/watch?v=HhZaHf8RP6g");
+?>
+cat encodevideoandtime.php 
+vi encodevideoandtime.php 
+vi processqueue.php
+ls
+vi processqueue.php
+ls
+vi roomstruct.php
+ls
+cat serializedqueue 
+vi roomstruct.php
+vi processqueue.php
+vi roomstruct.php
+vi processqueue.php
+php processqueue.php 
+vi processqueue.php
+php processqueue.php 
+vi processqueue.php
+php processqueue.php 
+vi processqueue.php
+php processqueue.php 
+vi processqueue.php
+php processqueue.php 
+vi processqueue.php
+php processqueue.php 
+vi processqueue.php
+php processqueue.php 
+ls
+vi processqueue.php
+php processqueue.php 
+vi processqueue.php
+php processqueue.php 
+vi processqueue.php
+php processqueue.php 
+ls
+cat encode
+cat encodevideo 
+php processqueue.php 
+vi processqueue.php
+php processqueue.php 
+vi processqueue.php
+php processqueue.php 
+ls
+vi roomstruct.php 
+php roomstruct.php 
+php processqueue.php 
+vi processqueue.php
+php processqueue.php 
+vi processqueue.php
+php processqueue.php 
+php roomstruct.php 
+php processqueue.php 
+vi processqueue.php
+php processqueue.php 
+rpm -qa
+rpm -qa | grep socket
+gcc
+ls
+cd other_files
+vi sample.c 
+gcc sample.c -o run
+vi sample.c 
+gcc sample.c -o run
+vi sample.c 
+gcc sample.c -o run
+ls
+./run
+yum install
+systemd
+cd /etc
+ls
+systemctl --type=service
+cd /etc/systemd
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd ~
+ls
+cd other_files/
+vi socket.php
+php socket.php 
+vi socket.php
+ls
+cd ..
+cd public_html/
+ls
+cd Project/
+ls
+vi roomstruct.php
+ls
+vi roomstruct.php
+ls
+cat processqueue.php 
+<?php
+include 'roomstruct.php';
+include 'getvideolength.php';
+        $initialtime = time();
+        $currenttime = 0;
+        $currentvideo = getnextvideo();
+        $lengthofvideo = gettime($currentvideo);
+                $currenttime = time();
+                //echo($currenttime);
+                //echo(' ');
+                //echo($initialtime);
+                //echo(' ');
+                //echo($lengthofvideo);
+                while($currenttime-$initialtime<$lengthofvideo) {
+                        echo( $currentvideo.','.($currenttime-$initialtime));
+                        file_put_contents('encodedvideo', $currentvideo.','.($currenttime-$initialtime));
+                        sleep(1);
+                        $currenttime = time();
+                        //echo($currenttime-$initialtime);
+                }
+                removefromqueue();
+                        $currentvideo = getnextvideo();
+                }
+                $initialtime = time();
+        }
+?>ls
+ls
+cat encodevideo 
+ls
+cd public_html/
+ls
+cd Project/
+ls
+rm items\[0\]- 
+ls
+cat contentDetails- 
+rm contentDetails- 
+ls
+cat duration 
+rm duration
+ls
+rm roomstruct.php.orig 
+ls
+vi encodevideoandtime.php 
+mv encodevideoandtime.php getvideolength.php
+vi getvideolength.php 
+ls
+cat encodedvideo 
+cat encodedvideo
+cat encodedvideo 
+ls
+cd public_html/
+ls
+cd Project/
+ls
+cat encode
+cat encodevideo 
+vi processqueue.php 
+php processqueue.php 
+ls
+cd public_html
+ls
+cd Project/
+ls
+php roomstruct.php
+vi roomstruct.php
+vi visualqueue.php
+ls
+cd public_html/
+ls
+cd Project/
+ls
+cat encodevideo 
+ls
+vi visualqueue.php
+ls
+vi roomstruct.php 
+php roomstruct.php 
+vi roomstruct.php 
+php processqueue.php 
+cd public_html/
+cd Project/
+php processqueue.php
+ls
+cd public_html/
+ls
+cd Project/
+ls
+ls
+cd public_html/
+cd Project/
+ls
+cat serializedqueue 
+vi roomstruct.php 
+php roomstruct.php 
+cat serializedqueue 
+vi roomstruct.php 
+cat serializedqueue 
+php roomstruct.php 
+cat serializedqueue 
+php processqueue.php 
+php roomstruct.php 
+vi roomstruct.php 
+cd public_html/Project/
+php structqueue.php
+php roomstruct.php
+php processqueue.php
+cat serializequeue
+cat serializedqueue
+php roomstruct.php
+cat serializedqueue
+php processqueue.php
+php roomstruct.php
+php processqueue.php
+ls
+cd public_html/
+cd Project/
+cat processqueue.php 
+cd public_html/
+cd Project/
+ls
+cat encodevideo 
+https://www.youtube.com/watch?v=cOgj_5lYijo,18[cen4010s2020_g12@lamp Project]$ cat encodevideo
+https://www.youtube.com/watch?v=cOgj_5lYijo,3[cen4010s2020_g12@lamp Project]$ cat encodevideo
+https://www.youtube.com/watch?v=cOgj_5lYijo,3[cen4010s2020_g12@lamp Project]$
+cat serializedqueue 
+cd /etc
+ls
+./cron.d
+cd cron.d
+ls
+cd public_html/
+ls
+cd Project/
+ls
+vi roomstruct.php 
+vi processqueue.php 
+ls
+cd public_html/
+ls
+cd Project/
+ls
+php processqueue.php 
+$ps aux | grep memcached
+ps aux | grep memcached
+vi processqueue.php 
+php processqueue.php 
+vi processqueue.php 
+php processqueue.php 
+ps aux | grep memcached
+vi /etc/php.ini
+php -i | grep memcached
+vi /etc/php.ini
+ls
+cd public_html/
+cd Project/
+ls
+php processqueue.php 
+cd public_html/
+cd Project/
+php processqueue.php 
+cd public_html/
+cd Project/
+ls
+mysql
+ls
+touch queuestatus
+ls
+chmod 777 queuestatus 
+vi processqueue.php 
+vi queuestatus 
+vi processqueue.php 
+mkdir storage
+ls
+mv queuestatus storage
+ls
+vi processqueue.php 
+php processqueue.php 
+vi processqueue.php 
+php processqueue.php 
+vi processqueue.php 
+php processqueue.php 
+vi processqueue.php 
+php processqueue.php 
+vi processqueue.php 
+php processqueue.php 
+vi processqueue.php 
+php processqueue.php 
+vi processqueue.php 
+php processqueue.php 
+vi processqueue.php 
+vi queuestatus 
+php processqueue.php 
+vi queuestatus 
+php processqueue.php 
+vi processqueue.php 
+php processqueue.php 
+vi processqueue.php 
+cd public_html/Project/
+cat encodequeue
+lp
+ls
+ps -ef
+ps -ef | grep php processqueue.php
+ps -ef | grep "php processqueue.php"
+ps -af | grep -w rv
+ps -af | grep -w "php processqueue.php"
+ps -afo | grep -w "php processqueue.php"
+ps -af -o | grep -w "php processqueue.php"
+ps -ef -o | grep -w "php processqueue.php"
+ps -o | grep -w "php processqueue.php"
+ps -o
+ps -o a
+pgrep "php processqueue.php"
+pgrep
+pgrep php
+pgrep php processqueue.php
+ps -o cmd -u UserName
+ps -u cen4010s2020_g12 | tr -s " " | cut -d " " -f 6-
+pgrep php
+ps
+ps -ef
+ps -o uid,pid,cmd -ef|grep python
+ps -o uid,pid,cmd -ef|grep php
+ps -o uid,pid,cmd -ef|grep "php process.php"
+ps o uid=,pid=,cmd= -C python
+ps o uid=,pid=,cmd= -C php
+ps o cmd= -C php
+ps o cmd= -C "php processqueue.php"
+ps o cmd= -C "php processqueue.phps"
+ps o cmd= -C "php processqueue.php"
+ps o cmd= -C "asdadphp processqueue.php"
+ps o cmd= -C php\ processqueue.php
+ps o cmd= -C php\ processqueued.php
+ps o cmd= -C processqueue.php
+ps o cmd= -C php' 'processqueue.php
+ps o cmd= -C php' 'processqueues.php
+ps o cmd= -C php' 'processqueue.php
+ps o cmd= -C 'php processqueue.php'
+ps o cmd= -C 'php processqueue.phps'
+ps o cmd= -C "php processqueue.php"
+ps o cmd= -C "php processqueue.phpd"
+ps o cmd= -C "php processqueue.php
+>
+ps o cmd= -C "php processqueue.php"
+ps o cmd= -C php\ processqueue.php
+ps o cmd= -C php\ processqueue.phpd
+ps o cmd= -C php\ dprocessqueue.phpd
+ps o cmd= -C phpd\ processqueue.php
+ps o cmd= -C php\ processqueue.php
+ps o uid=,pid=,cmd= python
+ps o cmd= python
+ps o cmd= -C python
+ps o cmd= -C php
+ps o cmd= -C php | grep processqueue.php
+ps o cmd= -C php | grep processqueue.phpps o cmd= -C php | grep processqueue.php
+ls
+cd public_html/
+cd Project/
+ls
+pwd

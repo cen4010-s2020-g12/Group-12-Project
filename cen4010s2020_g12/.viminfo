@@ -7,15 +7,34 @@
 
 # hlsearch on (H) or off (h):
 ~H
+# Last Search Pattern:
+~MSle0~/mag
+
 # Command Line History (newest to oldest):
 :wq
+:q!
 :q
+:.,.+5!# A sample Bash script, by Ryan
+:Q
+:w
+:w!
+:quit
+:!q
+:.,.+1!
 :commands
 :sq
 :qs
 :s
 
 # Search String History (newest to oldest):
+?/bin/bash
+? \<else\>
+? \<if\>
+?/mag
+?/memc
+??php 
+? \<echo\>
+??php
 
 # Expression History (newest to oldest):
 
@@ -24,170 +43,661 @@
 # Input Line History (newest to oldest):
 
 # Registers:
-""-	CHAR	0
-	l
+""1	LINE	0
+	    
+"2	LINE	0
+	    //serializequeue($queue);
+"3	LINE	0
+	
+"4	LINE	0
+	d    $queue -> enqueue('https://www.youtube.com/watch?v=668nUCeBHyY');
+"5	LINE	0
+	    $queue = new SplQueue();
+	    $queue -> enqueue('https://www.youtube.com/watch?v=hS5CfP8n_js');
+"6	LINE	0
+	    serializequeue($queue);
+"7	LINE	0
+	    $queue -> enqueue('https://www.youtube.com/watch?v=MhgLasBFr6o');
+"8	LINE	0
+	  
+"9	LINE	0
+	    $queue -> enqueue('https://www.youtube.com/watch?v=FGBhQbmPwH8');
+"-	CHAR	0
+	m
 
 # File marks:
-'0  102  12  ~/public_html/Project/VerticalPrototype/test.php
-'1  60  104  ~/public_html/indexC.html
-'2  104  33  ~/public_html/indexC.html
-'3  111  6  ~/public_html/indexC.html
-'4  114  0  ~/public_html/Project/VerticalPrototype/test.php
-'5  105  72  ~/public_html/Project/VerticalPrototype/test.php
-'6  1  0  ~/public_html/Project/VerticalPrototype/readme.html
-'7  9  0  ~/public_html/Project/PHPChat/chatfiles/setchat.php
-'8  53  37  ~/public_html/Project/test.php
-'9  1  0  ~/public_html/Project/Chat/test.php
+'0  4  65  ~/public_html/Project/fillqueue.php
+'1  7  26  ~/public_html/Project/fillqueue.php
+'2  2  24  ~/public_html/Project/fillqueue.php
+'3  1  0  ~/public_html/Project/roomstruct.php
+'4  1  0  ~/public_html/Project/fillqueue.php
+'5  22  0  ~/public_html/Project/roomstruct.php
+'6  2  0  ~/public_html/Project/roomstruct.php
+'7  2  27  ~/public_html/Project/roomstruct.php
+'8  2  3  ~/public_html/Project/roomstruct.php
+'9  2  5  ~/public_html/Project/roomstruct.php
 
 # Jumplist (newest first):
--'  102  12  ~/public_html/Project/VerticalPrototype/test.php
--'  114  0  ~/public_html/Project/VerticalPrototype/test.php
--'  60  104  ~/public_html/indexC.html
--'  104  1  ~/public_html/indexC.html
--'  111  6  ~/public_html/indexC.html
--'  1  2  ~/public_html/indexC.html
--'  105  0  ~/public_html/Project/VerticalPrototype/test.php
--'  1  0  ~/public_html/Project/VerticalPrototype/test.php
--'  1  0  ~/public_html/Project/VerticalPrototype/readme.html
--'  9  0  ~/public_html/Project/PHPChat/chatfiles/setchat.php
--'  1  0  ~/public_html/Project/PHPChat/chatfiles/setchat.php
--'  53  37  ~/public_html/Project/test.php
--'  1  0  ~/public_html/Project/Chat/test.php
--'  52  2  ~/public_html/Project/test.php
--'  19  15  ~/public_html/Project/test.php
--'  1  0  ~/public_html/Project/test.php
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/test.php
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/test.php
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/test.php
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/test.php
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/test.php
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/test.php
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/test.php
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  53  37  ~/public_html/Project/test.php
--'  1  0  ~/public_html/Project/Chat/test.php
--'  52  2  ~/public_html/Project/test.php
--'  19  15  ~/public_html/Project/test.php
--'  1  0  ~/public_html/Project/test.php
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
--'  1  0  ~/public_html/Project/Chat/DirectoryStructure
+-'  4  65  ~/public_html/Project/fillqueue.php
+-'  7  4  ~/public_html/Project/fillqueue.php
+-'  2  0  ~/public_html/Project/fillqueue.php
+-'  1  0  ~/public_html/Project/fillqueue.php
+-'  1  0  ~/public_html/Project/roomstruct.php
+-'  22  0  ~/public_html/Project/roomstruct.php
+-'  2  4  ~/public_html/Project/roomstruct.php
+-'  16  74  ~/public_html/Project/processqueue.php
+-'  13  18  ~/public_html/Project/processqueue.php
+-'  14  0  ~/public_html/Project/roomstruct.php
+-'  4  1  ~/public_html/Project/processqueue.php
+-'  1  0  ~/public_html/Project/processqueue.php
+-'  1  0  ~/public_html/Project/queuestatus
+-'  25  19  ~/public_html/Project/processqueue.php
+-'  23  19  ~/public_html/Project/processqueue.php
+-'  6  2  ~/public_html/Project/processqueue.php
+-'  10  1  ~/public_html/Project/processqueue.php
+-'  8  3  ~/public_html/Project/processqueue.php
+-'  5  1  ~/public_html/Project/processqueue.php
+-'  128  1  /etc/php.ini
+-'  3  17  /etc/php.ini
+-'  126  0  /etc/php.ini
+-'  118  0  /etc/php.ini
+-'  1  0  /etc/php.ini
+-'  31  15  ~/public_html/Project/processqueue.php
+-'  12  0  ~/public_html/Project/processqueue.php
+-'  34  12  ~/public_html/Project/processqueue.php
+-'  8  9  ~/public_html/Project/visualqueue.php
+-'  1  0  ~/public_html/Project/visualqueue.php
+-'  22  9  ~/public_html/Project/visualqueue.php
+-'  35  3  ~/public_html/Project/processqueue.php
+-'  39  3  ~/public_html/Project/processqueue.php
+-'  27  0  ~/public_html/Project/roomstruct.php
+-'  36  3  ~/public_html/Project/processqueue.php
+-'  40  28  ~/public_html/Project/processqueue.php
+-'  32  137  ~/public_html/Project/processqueue.php
+-'  42  2  ~/public_html/Project/processqueue.php
+-'  51  1  ~/public_html/Project/processqueue.php
+-'  9  4  ~/public_html/Project/roomstruct.php
+-'  2  0  ~/public_html/Project/processqueue.php
+-'  52  0  ~/public_html/Project/processqueue.php
+-'  26  0  ~/public_html/Project/encodevideoandtime.php
+-'  4  4  ~/public_html/Project/encodevideoandtime.php
+-'  25  4  ~/public_html/Project/encodevideoandtime.php
+-'  20  95  ~/public_html/Project/encodevideoandtime.php
+-'  16  101  ~/public_html/Project/encodevideoandtime.php
+-'  19  76  ~/public_html/Project/encodevideoandtime.php
+-'  15  103  ~/public_html/Project/encodevideoandtime.php
+-'  14  8  ~/public_html/Project/encodevideoandtime.php
+-'  13  4  ~/public_html/Project/encodevideoandtime.php
+-'  11  76  ~/public_html/Project/encodevideoandtime.php
+-'  9  4  ~/public_html/Project/encodevideoandtime.php
+-'  8  72  ~/public_html/Project/encodevideoandtime.php
+-'  6  4  ~/public_html/Project/encodevideoandtime.php
+-'  3  2  ~/public_html/Project/encodevideoandtime.php
+-'  5  4  ~/public_html/Project/encodevideoandtime.php
+-'  7  4  ~/public_html/Project/encodevideoandtime.php
+-'  1  0  ~/public_html/Project/encodevideoandtime.php
+-'  2  22  ~/other_files/socket.php
+-'  16  0  ~/other_files/socket.php
+-'  1  0  ~/other_files/socket.php
+-'  1  0  ~/other_files/sample.c
+-'  7  0  ~/other_files/sample.c
+-'  26  8  ~/public_html/Project/roomstruct.php
+-'  28  4  ~/public_html/Project/roomstruct.php
+-'  20  0  ~/public_html/Project/roomstruct.php
+-'  3  1  ~/public_html/Project/roomload.php
+-'  25  4  ~/public_html/Project/roomstruct.php
+-'  2  25  ~/public_html/Project/roomload.php
+-'  30  0  ~/public_html/Project/roomstruct.php
+-'  5  0  ~/public_html/Project/roomload.php
+-'  92  0  ~/public_html/Project/roomload.php
+-'  90  0  ~/public_html/Project/roomload.php
+-'  10  2  ~/public_html/Project/roomload.php
+-'  72  0  ~/public_html/Project/index.php
+-'  16  6  ~/public_html/Project/index.php
+-'  71  2  ~/public_html/Project/roomload.php
+-'  17  6  ~/public_html/Project/index.php
+-'  5  22  ~/public_html/Project/chatfiles/setchat.php
+-'  1  0  ~/public_html/Project/chatfiles/setchat.php
+-'  2  30  ~/public_html/Project/chatfiles/class.ChatSimple.php
+-'  1  0  ~/public_html/Project/chatfiles/class.ChatSimple.php
+-'  12  0  ~/public_html/Project/roomstruct.php
+-'  40  4  ~/public_html/Project/roomstruct.php
+-'  36  4  ~/public_html/Project/roomstruct.php
+-'  41  0  ~/public_html/Project/roomstruct.php
+-'  15  4  ~/public_html/Project/roomstruct.php
+-'  39  0  ~/public_html/Project/roomstruct.php
+-'  38  4  ~/public_html/Project/roomstruct.php
+-'  37  4  ~/public_html/Project/roomstruct.php
+-'  16  60  ~/public_html/Project/roomstruct.php
+-'  33  0  ~/public_html/Project/roomstruct.php
+-'  1  0  ~/public_html/Project/queuestruct.php
+-'  4  4  ~/public_html/Project/index.php
+-'  1  0  ~/public_html/Project/index.php
+-'  16  74  ~/public_html/Project/processqueue.php
+-'  5  0  ~/public_html/Project/roomstruct.php
+-'  16  74  ~/public_html/Project/processqueue.php
 
 # History of marks within files (newest to oldest):
 
-> ~/public_html/Project/VerticalPrototype/test.php
-	"	102	12
-	^	102	13
-	.	102	0
-	+	114	5
-	+	114	4
-	+	114	3
-	+	114	2
-	+	114	1
-	+	114	0
-	+	114	0
-	+	113	11
-	+	114	0
-	+	105	73
-	+	115	0
-	+	47	106
-	+	102	0
+> ~/public_html/Project/fillqueue.php
+	"	4	65
+	^	4	66
+	.	4	23
+	+	1	24
+	+	8	1
+	+	1	5
+	+	2	24
+	+	7	26
+	+	4	23
 
-> ~/public_html/indexC.html
-	"	60	104
-	^	104	34
-	.	104	29
-	+	107	5
-	+	107	5
-	+	104	48
-	+	111	6
-	+	104	29
-
-> ~/public_html/Project/VerticalPrototype/readme.html
+> ~/public_html/Project/roomstruct.php
 	"	1	0
+	.	2	0
+	+	53	0
+	+	1	5
+	+	2	0
+	+	54	22
+	+	60	24
+	+	56	0
+	+	2	5
+	+	50	4
+	+	51	5
+	+	52	5
+	+	54	27
+	+	56	36
+	+	57	37
+	+	62	42
+	+	64	17
+	+	66	21
+	+	1	0
+	+	2	10
+	+	49	0
+	+	49	0
+	+	3	23
+	+	4	58
+	+	5	23
+	+	49	2
+	+	50	0
+	+	42	0
+	+	48	0
+	+	45	4
+	+	46	3
+	+	45	4
+	+	23	24
+	+	46	8
+	+	45	30
+	+	44	0
+	+	43	23
+	+	47	25
+	+	2	1
+	+	2	0
+	+	42	0
+	+	2	95
+	+	41	0
+	+	38	43
+	+	2	85
+	+	38	77
+	+	38	102
+	+	41	0
+	+	38	31
+	+	38	70
+	+	38	102
+	+	38	28
+	+	37	34
+	+	38	31
+	+	39	4
+	+	39	0
+	+	38	7
+	+	38	0
+	+	37	33
+	+	38	33
+	+	2	0
+	+	36	16
+	+	38	45
+	+	40	18
+	+	38	30
+	+	18	0
+	+	17	10
+	+	2	23
+	+	1	0
+	+	31	0
+	+	30	27
+	+	1	4
+	+	2	4
+	+	2	3
+	+	2	12
+	+	2	23
+	+	2	4
+	+	2	4
+	+	2	4
+	+	2	3
+	+	2	3
+	+	2	3
+	+	2	5
+	+	2	5
+	+	2	28
+	+	2	4
+	+	2	27
+	+	2	5
+	+	2	4
+	+	2	4
+	+	2	0
+	+	2	5
+	+	2	68
+	+	2	5
+	+	2	4
+	+	2	3
+	+	2	23
+	+	2	69
+	+	2	4
+	+	2	0
+	+	2	0
+	+	2	0
 
-> ~/public_html/Project/PHPChat/chatfiles/setchat.php
-	"	9	0
+> ~/public_html/Project/processqueue.php
+	"	16	74
+	^	16	75
+	.	16	74
+	+	39	9
+	+	36	84
+	+	36	4
+	+	36	70
+	+	37	66
+	+	38	3
+	+	39	9
+	+	31	11
+	+	32	23
+	+	32	19
+	+	47	3
+	+	48	8
+	+	36	0
+	+	32	18
+	+	39	9
+	+	12	25
+	+	49	2
+	+	50	1
+	+	5	23
+	+	10	1
+	+	10	1
+	+	33	1
+	+	34	16
+	+	35	16
+	+	33	2
+	+	35	17
+	+	36	17
+	+	37	16
+	+	38	24
+	+	37	17
+	+	38	16
+	+	39	17
+	+	38	17
+	+	40	17
+	+	41	13
+	+	33	0
+	+	42	12
+	+	43	12
+	+	44	16
+	+	45	12
+	+	46	12
+	+	13	1
+	+	14	1
+	+	31	1
+	+	31	1
+	+	31	2
+	+	32	2
+	+	33	3
+	+	34	17
+	+	35	18
+	+	36	18
+	+	37	18
+	+	38	18
+	+	39	18
+	+	40	18
+	+	41	14
+	+	42	13
+	+	43	13
+	+	44	17
+	+	45	13
+	+	46	13
+	+	47	2
+	+	48	2
+	+	49	1
+	+	4	0
+	+	10	0
+	+	31	0
+	+	10	0
+	+	4	12
+	+	10	0
+	+	6	50
+	+	9	2
+	+	8	17
+	+	6	10
+	+	6	53
+	+	6	55
+	+	6	46
+	+	6	0
+	+	24	0
+	+	15	15
+	+	16	16
+	+	6	55
+	+	7	46
+	+	20	58
+	+	21	0
+	+	16	16
+	+	15	14
+	+	31	0
+	+	25	84
+	+	5	0
+	+	5	44
+	+	12	1
+	+	12	0
+	+	12	44
+	+	4	0
+	+	5	0
+	+	4	0
+	+	12	0
+	+	18	80
+	+	16	74
+	c	14	13
 
-> ~/public_html/Project/test.php
-	"	53	37
-	^	53	38
-	.	53	38
-	+	19	12
-	+	52	0
-	+	54	11
-	+	53	1
-	+	52	28
-	+	53	38
+> ~/other_files/periodic.sh
+	"	6	47
+	^	6	48
+	.	6	47
+	+	13	44
+	+	12	0
+	+	13	0
+	+	12	46
+	+	12	3
+	+	13	42
+	+	14	33
+	+	17	0
+	+	14	5
+	+	17	65
+	+	18	1
+	+	13	17
+	+	12	63
+	+	13	0
+	+	14	4
+	+	16	0
+	+	17	0
+	+	18	0
+	+	13	0
+	+	14	4
+	+	18	0
+	+	13	37
+	+	14	0
+	+	13	10
+	+	16	0
+	+	17	0
+	+	14	34
+	+	17	65
+	+	14	34
+	+	13	37
+	+	14	34
+	+	17	66
+	+	13	9
+	+	12	6
+	+	13	0
+	+	14	0
+	+	14	4
+	+	16	0
+	+	17	0
+	+	18	0
+	+	12	54
+	+	13	0
+	+	14	0
+	+	14	4
+	+	16	0
+	+	17	0
+	+	18	0
+	+	15	6
+	+	15	0
+	+	13	14
+	+	17	31
+	+	13	4
+	+	15	65
+	+	17	31
+	+	13	16
+	+	13	0
+	+	1	6
+	+	10	1
+	+	7	1
+	+	6	48
+	+	7	6
+	+	6	47
 
-> ~/public_html/Project/Chat/test.php
+> /usr/share/vim/vim74/doc/help.txt
+	"	48	0
+
+> ~/public_html/Project/storage/queuestatus
 	"	1	0
+	^	1	1
+	.	1	1
+	+	1	1
 
-> ~/public_html/Project/Chat/DirectoryStructure
+> ~/public_html/Project/queuestatus
+	"	1	0
+	^	1	1
+	.	1	0
+	+	1	0
+
+> /etc/php.ini
+	"	128	1
+	^	128	2
+	.	127	18
+	+	3	17
+	+	127	18
+
+> ~/public_html/Project/visualqueue.php
+	"	11	10
+	^	10	63
+	.	10	63
+	+	22	0
+	+	12	0
+	+	10	63
+	+	11	0
+	+	10	63
+
+> ~/public_html/Project/getvideolength.php
+	"	6	0
+
+> ~/public_html/Project/encodevideoandtime.php
+	"	2	15
+	^	2	16
+	.	2	15
+	+	9	3
+	+	8	90
+	+	26	13
+	+	9	3
+	+	8	90
+	+	9	5
+	+	8	73
+	+	9	58
+	+	9	16
+	+	9	0
+	+	8	68
+	+	25	3
+	+	9	41
+	+	11	48
+	+	25	5
+	+	11	67
+	+	9	36
+	+	9	42
+	+	10	44
+	+	11	49
+	+	13	3
+	+	11	67
+	+	13	4
+	+	11	69
+	+	13	5
+	+	11	92
+	+	13	58
+	+	11	77
+	+	13	61
+	+	13	0
+	+	11	44
+	+	13	36
+	+	9	0
+	+	11	72
+	+	13	68
+	+	17	4
+	+	14	7
+	+	12	22
+	+	15	28
+	+	13	5
+	+	14	24
+	+	18	3
+	+	15	15
+	+	26	14
+	+	17	0
+	+	15	30
+	+	15	29
+	+	15	95
+	+	15	94
+	+	15	9
+	+	15	115
+	+	14	10
+	+	26	14
+	+	15	96
+	+	15	119
+	+	17	0
+	+	15	173
+	+	15	17
+	+	16	121
+	+	14	8
+	+	15	8
+	+	15	87
+	+	16	121
+	+	21	4
+	+	21	0
+	+	19	68
+	+	20	87
+	+	20	115
+	+	26	14
+	+	19	76
+	+	19	104
+	+	19	92
+	+	20	96
+	+	16	102
+	+	26	14
+	+	19	92
+	+	16	113
+	+	13	16
+	+	18	24
+	+	16	102
+	+	19	77
+	+	20	95
+	+	24	4
+	+	24	0
+	+	23	64
+	+	20	0
+	+	17	0
+	+	26	0
+	+	25	0
+	+	12	0
+	+	21	0
+	+	13	0
+	+	25	4
+	+	3	1
+	+	4	0
+	+	25	67
+	+	4	0
+	+	27	0
+	+	25	25
+	+	2	15
+
+> ~/other_files/socket.php
+	"	2	22
+	^	16	2
+	.	16	1
+	+	15	0
+	+	1	4
+	+	16	1
+
+> ~/public_html/Project/videoandtime.php
+	"	2	0
+	^	2	0
+	.	2	0
+	+	3	1
+	+	2	14
+	+	2	0
+
+> ~/other_files/my-program
+	"	7	3
+	^	7	4
+	.	7	0
+	+	1	30
+	+	1	11
+	+	7	0
+
+> ~/other_files/sample.c
+	"	1	0
+	^	1	1
+	.	1	0
+	+	7	0
+	+	1	0
+
+> ~/public_html/Project/roomload.php
+	"	2	24
+	^	2	25
+	.	3	0
+	+	4	0
+	+	4	0
+	+	4	0
+	+	4	0
+	+	4	0
+	+	4	0
+	+	4	122
+	+	4	80
+	+	93	6
+	+	44	6
+	+	4	81
+	+	4	0
+	+	4	5
+	+	93	2
+	+	93	0
+	+	93	0
+	+	93	0
+	+	92	0
+	+	4	5
+	+	3	1
+	+	2	25
+	+	2	25
+	+	2	25
+	+	3	0
+
+> ~/public_html/Project/index.php
+	"	136	17
+	^	72	0
+	.	66	10
+	+	148	2
+	+	143	17
+	+	1	2
+	+	89	0
+	+	73	2
+	+	72	0
+	+	3	22
+	+	4	29
+	+	69	6
+	+	71	0
+	+	11	21
+	+	14	3
+	+	70	48
+	+	70	0
+	+	13	0
+	+	27	0
+	+	17	38
+	+	66	10
+
+> ~/public_html/Project/chatfiles/setchat.php
+	"	5	22
+	^	5	23
+	.	5	23
+	+	5	23
+
+> ~/public_html/Project/chatfiles/class.ChatSimple.php
+	"	2	30
+
+> ~/public_html/Project/queuestruct.php
 	"	1	0
