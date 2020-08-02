@@ -8,12 +8,12 @@
 # hlsearch on (H) or off (h):
 ~H
 # Last Search Pattern:
-~MSle0~/mag
+~MSle0~/php 
 
 # Command Line History (newest to oldest):
 :wq
-:q!
 :q
+:q!
 :.,.+5!# A sample Bash script, by Ryan
 :Q
 :w
@@ -43,82 +43,93 @@
 # Input Line History (newest to oldest):
 
 # Registers:
-""1	LINE	0
+"1	LINE	0
 	    
 "2	LINE	0
-	    //serializequeue($queue);
-"3	LINE	0
 	
+"3	LINE	0
+			//$("#results").append(el);
 "4	LINE	0
-	d    $queue -> enqueue('https://www.youtube.com/watch?v=668nUCeBHyY');
+			//el.find("#title") = item.snippet.title;
 "5	LINE	0
-	    $queue = new SplQueue();
-	    $queue -> enqueue('https://www.youtube.com/watch?v=hS5CfP8n_js');
+			//console.log(el);
 "6	LINE	0
-	    serializequeue($queue);
+			//el.html(data);
 "7	LINE	0
-	    $queue -> enqueue('https://www.youtube.com/watch?v=MhgLasBFr6o');
+	                //var el = $( '<div></div>' );
 "8	LINE	0
-	  
+			console.log(data);
 "9	LINE	0
-	    $queue -> enqueue('https://www.youtube.com/watch?v=FGBhQbmPwH8');
-"-	CHAR	0
-	m
+		    //console.log(item);
+""-	CHAR	0
+	$
 
 # File marks:
-'0  4  65  ~/public_html/Project/fillqueue.php
-'1  7  26  ~/public_html/Project/fillqueue.php
-'2  2  24  ~/public_html/Project/fillqueue.php
-'3  1  0  ~/public_html/Project/roomstruct.php
-'4  1  0  ~/public_html/Project/fillqueue.php
-'5  22  0  ~/public_html/Project/roomstruct.php
-'6  2  0  ~/public_html/Project/roomstruct.php
-'7  2  27  ~/public_html/Project/roomstruct.php
-'8  2  3  ~/public_html/Project/roomstruct.php
-'9  2  5  ~/public_html/Project/roomstruct.php
+'0  4  68  ~/public_html/Project/fillqueue.php
+'1  6  5  ~/public_html/Project/roomstruct.php
+'2  466  0  ~/public_html/Project/chatfiles/chatfunctions.js
+'3  29  3  ~/public_html/Project/searchtest/app.js
+'4  22  9  ~/public_html/Project/searchtest/app.js
+'5  26  19  ~/public_html/Project/searchtest/app.js
+'6  15  25  ~/public_html/Project/searchtest/app.js
+'7  25  19  ~/public_html/Project/searchtest/app.js
+'8  25  26  ~/public_html/Project/searchtest/app.js
+'9  25  19  ~/public_html/Project/searchtest/app.js
 
 # Jumplist (newest first):
--'  4  65  ~/public_html/Project/fillqueue.php
--'  7  4  ~/public_html/Project/fillqueue.php
--'  2  0  ~/public_html/Project/fillqueue.php
--'  1  0  ~/public_html/Project/fillqueue.php
+-'  4  68  ~/public_html/Project/fillqueue.php
+-'  6  4  ~/public_html/Project/fillqueue.php
+-'  6  5  ~/public_html/Project/roomstruct.php
+-'  19  0  ~/public_html/Project/roomstruct.php
+-'  466  0  ~/public_html/Project/chatfiles/chatfunctions.js
+-'  1  0  ~/public_html/Project/chatfiles/chatfunctions.js
+-'  29  3  ~/public_html/Project/searchtest/app.js
+-'  22  10  ~/public_html/Project/searchtest/app.js
+-'  26  2  ~/public_html/Project/searchtest/app.js
+-'  15  12  ~/public_html/Project/searchtest/app.js
+-'  25  2  ~/public_html/Project/searchtest/app.js
+-'  2  0  ~/public_html/Project/searchtest/app.js
+-'  23  10  ~/public_html/Project/searchtest/app.js
+-'  3  27  ~/public_html/Project/searchtest/item.html
+-'  5  0  ~/public_html/Project/searchtest/app.js
+-'  24  12  ~/public_html/Project/searchtest/app.js
+-'  2  4  ~/public_html/Project/searchtest/item.html
+-'  31  7  ~/public_html/Project/searchtest/app.js
+-'  1  0  ~/public_html/Project/searchtest/item.html
+-'  9  8  ~/public_html/Project/searchtest/index.html
+-'  27  8  ~/public_html/Project/searchtest/index.html
+-'  7  0  ~/public_html/Project/searchtest/app.js
+-'  42  4  ~/public_html/Project/searchtest/app.js
+-'  6  8  ~/public_html/Project/searchtest/index.html
+-'  1  0  ~/public_html/Project/searchtest/app.js
+-'  1  0  ~/public_html/Project/searchtest/index.html
+-'  40  0  ~/public_html/Project/app.js
+-'  19  10  ~/public_html/Project/app.js
+-'  1  0  ~/public_html/Project/app.js
 -'  1  0  ~/public_html/Project/roomstruct.php
--'  22  0  ~/public_html/Project/roomstruct.php
--'  2  4  ~/public_html/Project/roomstruct.php
--'  16  74  ~/public_html/Project/processqueue.php
--'  13  18  ~/public_html/Project/processqueue.php
--'  14  0  ~/public_html/Project/roomstruct.php
--'  4  1  ~/public_html/Project/processqueue.php
--'  1  0  ~/public_html/Project/processqueue.php
--'  1  0  ~/public_html/Project/queuestatus
--'  25  19  ~/public_html/Project/processqueue.php
--'  23  19  ~/public_html/Project/processqueue.php
--'  6  2  ~/public_html/Project/processqueue.php
--'  10  1  ~/public_html/Project/processqueue.php
--'  8  3  ~/public_html/Project/processqueue.php
--'  5  1  ~/public_html/Project/processqueue.php
--'  128  1  /etc/php.ini
--'  3  17  /etc/php.ini
--'  126  0  /etc/php.ini
--'  118  0  /etc/php.ini
--'  1  0  /etc/php.ini
--'  31  15  ~/public_html/Project/processqueue.php
--'  12  0  ~/public_html/Project/processqueue.php
--'  34  12  ~/public_html/Project/processqueue.php
+-'  8  0  ~/public_html/Project/roomstruct.php
+-'  7  3  ~/public_html/Project/roomstruct.php
+-'  4  4  ~/public_html/Project/roomstruct.php
 -'  8  9  ~/public_html/Project/visualqueue.php
 -'  1  0  ~/public_html/Project/visualqueue.php
 -'  22  9  ~/public_html/Project/visualqueue.php
--'  35  3  ~/public_html/Project/processqueue.php
--'  39  3  ~/public_html/Project/processqueue.php
--'  27  0  ~/public_html/Project/roomstruct.php
--'  36  3  ~/public_html/Project/processqueue.php
--'  40  28  ~/public_html/Project/processqueue.php
--'  32  137  ~/public_html/Project/processqueue.php
--'  42  2  ~/public_html/Project/processqueue.php
--'  51  1  ~/public_html/Project/processqueue.php
--'  9  4  ~/public_html/Project/roomstruct.php
+-'  11  10  ~/public_html/Project/processqueue.php
+-'  12  3  ~/public_html/Project/processqueue.php
+-'  16  3  ~/public_html/Project/processqueue.php
+-'  4  1  ~/public_html/Project/processqueue.php
+-'  34  0  ~/public_html/Project/roomstruct.php
+-'  13  3  ~/public_html/Project/processqueue.php
+-'  17  28  ~/public_html/Project/processqueue.php
+-'  9  137  ~/public_html/Project/processqueue.php
+-'  6  33  ~/public_html/Project/processqueue.php
+-'  1  0  ~/public_html/Project/processqueue.php
+-'  8  2  ~/public_html/Project/processqueue.php
+-'  19  2  ~/public_html/Project/processqueue.php
+-'  27  1  ~/public_html/Project/processqueue.php
+-'  5  4  ~/public_html/Project/roomstruct.php
+-'  16  4  ~/public_html/Project/roomstruct.php
 -'  2  0  ~/public_html/Project/processqueue.php
--'  52  0  ~/public_html/Project/processqueue.php
+-'  28  0  ~/public_html/Project/processqueue.php
 -'  26  0  ~/public_html/Project/encodevideoandtime.php
 -'  4  4  ~/public_html/Project/encodevideoandtime.php
 -'  25  4  ~/public_html/Project/encodevideoandtime.php
@@ -141,13 +152,15 @@
 -'  1  0  ~/other_files/socket.php
 -'  1  0  ~/other_files/sample.c
 -'  7  0  ~/other_files/sample.c
--'  26  8  ~/public_html/Project/roomstruct.php
--'  28  4  ~/public_html/Project/roomstruct.php
--'  20  0  ~/public_html/Project/roomstruct.php
+-'  9  8  ~/public_html/Project/roomstruct.php
+-'  33  8  ~/public_html/Project/roomstruct.php
+-'  35  4  ~/public_html/Project/roomstruct.php
+-'  27  0  ~/public_html/Project/roomstruct.php
 -'  3  1  ~/public_html/Project/roomload.php
--'  25  4  ~/public_html/Project/roomstruct.php
+-'  2  4  ~/public_html/Project/roomstruct.php
+-'  32  4  ~/public_html/Project/roomstruct.php
 -'  2  25  ~/public_html/Project/roomload.php
--'  30  0  ~/public_html/Project/roomstruct.php
+-'  37  0  ~/public_html/Project/roomstruct.php
 -'  5  0  ~/public_html/Project/roomload.php
 -'  92  0  ~/public_html/Project/roomload.php
 -'  90  0  ~/public_html/Project/roomload.php
@@ -160,108 +173,91 @@
 -'  1  0  ~/public_html/Project/chatfiles/setchat.php
 -'  2  30  ~/public_html/Project/chatfiles/class.ChatSimple.php
 -'  1  0  ~/public_html/Project/chatfiles/class.ChatSimple.php
--'  12  0  ~/public_html/Project/roomstruct.php
--'  40  4  ~/public_html/Project/roomstruct.php
--'  36  4  ~/public_html/Project/roomstruct.php
--'  41  0  ~/public_html/Project/roomstruct.php
--'  15  4  ~/public_html/Project/roomstruct.php
--'  39  0  ~/public_html/Project/roomstruct.php
--'  38  4  ~/public_html/Project/roomstruct.php
--'  37  4  ~/public_html/Project/roomstruct.php
--'  16  60  ~/public_html/Project/roomstruct.php
--'  33  0  ~/public_html/Project/roomstruct.php
--'  1  0  ~/public_html/Project/queuestruct.php
--'  4  4  ~/public_html/Project/index.php
--'  1  0  ~/public_html/Project/index.php
--'  16  74  ~/public_html/Project/processqueue.php
--'  5  0  ~/public_html/Project/roomstruct.php
--'  16  74  ~/public_html/Project/processqueue.php
+-'  47  4  ~/public_html/Project/roomstruct.php
+-'  43  4  ~/public_html/Project/roomstruct.php
+-'  48  0  ~/public_html/Project/roomstruct.php
 
 # History of marks within files (newest to oldest):
 
 > ~/public_html/Project/fillqueue.php
-	"	4	65
-	^	4	66
+	"	4	68
+	^	4	69
 	.	4	23
 	+	1	24
 	+	8	1
 	+	1	5
 	+	2	24
-	+	7	26
+	+	6	26
+	+	4	23
+	+	6	4
+	+	7	3
+	+	6	68
 	+	4	23
 
 > ~/public_html/Project/roomstruct.php
-	"	1	0
-	.	2	0
-	+	53	0
-	+	1	5
-	+	2	0
-	+	54	22
-	+	60	24
-	+	56	0
-	+	2	5
-	+	50	4
-	+	51	5
-	+	52	5
-	+	54	27
-	+	56	36
-	+	57	37
-	+	62	42
-	+	64	17
-	+	66	21
+	"	6	5
+	^	6	6
+	.	6	5
+	+	59	5
+	+	61	27
+	+	63	36
+	+	64	37
+	+	69	42
+	+	71	17
+	+	73	21
 	+	1	0
 	+	2	10
-	+	49	0
-	+	49	0
+	+	57	0
+	+	57	0
 	+	3	23
 	+	4	58
 	+	5	23
-	+	49	2
-	+	50	0
-	+	42	0
-	+	48	0
-	+	45	4
-	+	46	3
-	+	45	4
+	+	57	2
+	+	57	0
+	+	56	0
+	+	57	92
+	+	57	34
+	+	57	34
+	+	57	34
 	+	23	24
-	+	46	8
-	+	45	30
-	+	44	0
-	+	43	23
-	+	47	25
+	+	57	39
+	+	57	60
+	+	57	0
+	+	57	23
+	+	57	87
 	+	2	1
 	+	2	0
-	+	42	0
+	+	56	0
 	+	2	95
-	+	41	0
-	+	38	43
+	+	55	0
+	+	52	43
 	+	2	85
-	+	38	77
-	+	38	102
-	+	41	0
-	+	38	31
-	+	38	70
-	+	38	102
-	+	38	28
-	+	37	34
-	+	38	31
-	+	39	4
-	+	39	0
-	+	38	7
-	+	38	0
-	+	37	33
-	+	38	33
+	+	52	77
+	+	52	102
+	+	55	0
+	+	52	31
+	+	52	70
+	+	52	102
+	+	52	28
+	+	51	34
+	+	52	31
+	+	53	4
+	+	53	0
+	+	52	7
+	+	52	0
+	+	51	33
+	+	52	33
 	+	2	0
-	+	36	16
-	+	38	45
-	+	40	18
-	+	38	30
+	+	50	16
+	+	52	45
+	+	54	18
+	+	52	30
 	+	18	0
 	+	17	10
 	+	2	23
 	+	1	0
-	+	31	0
-	+	30	27
+	+	45	0
+	+	44	27
 	+	1	4
 	+	2	4
 	+	2	3
@@ -293,78 +289,170 @@
 	+	2	0
 	+	2	0
 	+	2	0
+	+	40	0
+	+	31	30
+	+	32	26
+	+	32	26
+	+	57	0
+	+	57	92
+	+	39	0
+	+	57	0
+	+	6	5
+
+> ~/public_html/Project/chatfiles/chatfunctions.js
+	"	466	0
+
+> ~/public_html/Project/searchtest/app.js
+	"	29	3
+	^	22	10
+	.	32	0
+	+	1	0
+	+	4	0
+	+	3	0
+	+	2	11
+	+	42	5
+	+	24	19
+	+	42	0
+	+	23	12
+	+	23	0
+	+	23	30
+	+	24	22
+	+	23	11
+	+	5	0
+	+	25	17
+	+	24	6
+	+	24	6
+	+	25	20
+	+	25	57
+	+	25	18
+	+	25	1
+	+	25	0
+	+	27	1
+	+	25	19
+	+	25	16
+	+	25	1
+	+	25	153
+	+	25	1
+	+	25	16
+	+	25	18
+	+	25	0
+	+	25	0
+	+	25	27
+	+	25	37
+	+	25	24
+	+	25	9
+	+	25	2
+	+	25	3
+	+	25	3
+	+	25	3
+	+	25	3
+	+	25	17
+	+	26	1
+	+	25	9
+	+	27	0
+	+	26	23
+	+	15	0
+	+	15	0
+	+	15	24
+	+	15	0
+	+	14	75
+	+	14	75
+	+	15	25
+	+	26	21
+	+	28	13
+	+	22	10
+	+	23	0
+	+	24	0
+	+	25	0
+	+	29	0
+	+	32	0
+
+> /usr/share/vim/vim74/doc/help.txt
+	"	1	0
+
+> ~/public_html/Project/searchtest/item.html
+	"	2	28
+	^	2	29
+	.	2	17
+	+	2	17
+
+> ~/public_html/Project/searchtest/index.html
+	"	21	29
+	^	9	37
+	.	9	37
+	+	27	21
+	+	9	37
+
+> ~/public_html/Project/app.js
+	"	40	0
 
 > ~/public_html/Project/processqueue.php
-	"	16	74
-	^	16	75
-	.	16	74
-	+	39	9
-	+	36	84
-	+	36	4
-	+	36	70
-	+	37	66
-	+	38	3
-	+	39	9
-	+	31	11
-	+	32	23
-	+	32	19
-	+	47	3
-	+	48	8
-	+	36	0
-	+	32	18
-	+	39	9
+	"	15	18
+	^	28	35
+	.	28	54
+	+	42	66
+	+	43	3
+	+	44	9
+	+	36	11
+	+	37	23
+	+	37	19
+	+	52	3
+	+	53	8
+	+	41	0
+	+	37	18
+	+	44	9
 	+	12	25
-	+	49	2
-	+	50	1
+	+	54	2
+	+	55	1
 	+	5	23
 	+	10	1
 	+	10	1
-	+	33	1
-	+	34	16
-	+	35	16
-	+	33	2
-	+	35	17
-	+	36	17
-	+	37	16
-	+	38	24
-	+	37	17
-	+	38	16
-	+	39	17
-	+	38	17
+	+	38	1
+	+	39	16
+	+	40	16
+	+	38	2
 	+	40	17
-	+	41	13
-	+	33	0
-	+	42	12
-	+	43	12
-	+	44	16
-	+	45	12
-	+	46	12
+	+	41	17
+	+	42	16
+	+	43	24
+	+	42	17
+	+	43	16
+	+	44	17
+	+	43	17
+	+	45	17
+	+	46	13
+	+	38	0
+	+	47	12
+	+	48	12
+	+	49	16
+	+	50	12
+	+	51	12
 	+	13	1
 	+	14	1
-	+	31	1
-	+	31	1
-	+	31	2
-	+	32	2
-	+	33	3
-	+	34	17
-	+	35	18
-	+	36	18
-	+	37	18
-	+	38	18
-	+	39	18
+	+	36	1
+	+	36	1
+	+	36	2
+	+	37	2
+	+	38	3
+	+	39	17
 	+	40	18
-	+	41	14
-	+	42	13
-	+	43	13
-	+	44	17
-	+	45	13
-	+	46	13
-	+	47	2
-	+	48	2
-	+	49	1
+	+	41	18
+	+	42	18
+	+	43	18
+	+	44	18
+	+	45	18
+	+	46	14
+	+	47	13
+	+	48	13
+	+	49	17
+	+	50	13
+	+	51	13
+	+	52	2
+	+	53	2
+	+	54	1
 	+	4	0
 	+	10	0
-	+	31	0
+	+	36	0
 	+	10	0
 	+	4	12
 	+	10	0
@@ -385,7 +473,7 @@
 	+	21	0
 	+	16	16
 	+	15	14
-	+	31	0
+	+	36	0
 	+	25	84
 	+	5	0
 	+	5	44
@@ -396,9 +484,91 @@
 	+	5	0
 	+	4	0
 	+	12	0
-	+	18	80
-	+	16	74
+	+	30	3
+	+	29	0
+	+	28	32
+	+	29	32
+	+	28	0
+	+	28	54
 	c	14	13
+
+> ~/public_html/Project/index.php
+	"	144	13
+	^	72	0
+	.	66	10
+	+	148	2
+	+	143	17
+	+	1	2
+	+	89	0
+	+	73	2
+	+	72	0
+	+	3	22
+	+	4	29
+	+	69	6
+	+	71	0
+	+	11	21
+	+	14	3
+	+	70	48
+	+	70	0
+	+	13	0
+	+	27	0
+	+	17	38
+	+	66	10
+
+> ~/public_html/Project/clearqueue.php
+	"	3	0
+	^	3	13
+	.	3	12
+	+	4	1
+	+	3	12
+
+> ~/public_html/Project/getsession.php
+	"	3	15
+	^	3	16
+	.	2	15
+	+	4	1
+	+	3	0
+	+	2	15
+
+> ~/public_html/Project/roomload.php
+	"	3	0
+	^	3	29
+	.	3	0
+	+	5	0
+	+	5	0
+	+	5	0
+	+	5	0
+	+	5	0
+	+	5	0
+	+	5	122
+	+	5	80
+	+	94	6
+	+	45	6
+	+	5	81
+	+	5	0
+	+	5	5
+	+	94	2
+	+	94	0
+	+	94	0
+	+	94	0
+	+	93	0
+	+	5	5
+	+	4	1
+	+	2	25
+	+	2	25
+	+	2	25
+	+	4	0
+	+	3	0
+
+> ~/public_html/Project/visualqueue.php
+	"	11	0
+	^	10	63
+	.	10	63
+	+	22	0
+	+	12	0
+	+	10	63
+	+	11	0
+	+	10	63
 
 > ~/other_files/periodic.sh
 	"	6	47
@@ -467,9 +637,6 @@
 	+	7	6
 	+	6	47
 
-> /usr/share/vim/vim74/doc/help.txt
-	"	48	0
-
 > ~/public_html/Project/storage/queuestatus
 	"	1	0
 	^	1	1
@@ -488,16 +655,6 @@
 	.	127	18
 	+	3	17
 	+	127	18
-
-> ~/public_html/Project/visualqueue.php
-	"	11	10
-	^	10	63
-	.	10	63
-	+	22	0
-	+	12	0
-	+	10	63
-	+	11	0
-	+	10	63
 
 > ~/public_html/Project/getvideolength.php
 	"	6	0
@@ -606,98 +763,3 @@
 	+	27	0
 	+	25	25
 	+	2	15
-
-> ~/other_files/socket.php
-	"	2	22
-	^	16	2
-	.	16	1
-	+	15	0
-	+	1	4
-	+	16	1
-
-> ~/public_html/Project/videoandtime.php
-	"	2	0
-	^	2	0
-	.	2	0
-	+	3	1
-	+	2	14
-	+	2	0
-
-> ~/other_files/my-program
-	"	7	3
-	^	7	4
-	.	7	0
-	+	1	30
-	+	1	11
-	+	7	0
-
-> ~/other_files/sample.c
-	"	1	0
-	^	1	1
-	.	1	0
-	+	7	0
-	+	1	0
-
-> ~/public_html/Project/roomload.php
-	"	2	24
-	^	2	25
-	.	3	0
-	+	4	0
-	+	4	0
-	+	4	0
-	+	4	0
-	+	4	0
-	+	4	0
-	+	4	122
-	+	4	80
-	+	93	6
-	+	44	6
-	+	4	81
-	+	4	0
-	+	4	5
-	+	93	2
-	+	93	0
-	+	93	0
-	+	93	0
-	+	92	0
-	+	4	5
-	+	3	1
-	+	2	25
-	+	2	25
-	+	2	25
-	+	3	0
-
-> ~/public_html/Project/index.php
-	"	136	17
-	^	72	0
-	.	66	10
-	+	148	2
-	+	143	17
-	+	1	2
-	+	89	0
-	+	73	2
-	+	72	0
-	+	3	22
-	+	4	29
-	+	69	6
-	+	71	0
-	+	11	21
-	+	14	3
-	+	70	48
-	+	70	0
-	+	13	0
-	+	27	0
-	+	17	38
-	+	66	10
-
-> ~/public_html/Project/chatfiles/setchat.php
-	"	5	22
-	^	5	23
-	.	5	23
-	+	5	23
-
-> ~/public_html/Project/chatfiles/class.ChatSimple.php
-	"	2	30
-
-> ~/public_html/Project/queuestruct.php
-	"	1	0

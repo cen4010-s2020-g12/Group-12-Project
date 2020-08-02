@@ -12,7 +12,7 @@ class ChatSimple {
   protected $chatdir = 'chattxt';  // directory that store TXT files for chat
   protected $fileroom;  // store the file of current chat room
   protected $chatuser ='';  // store user name
-  protected $chatadd =1; // if not 1, the user must be logged in
+  protected $chatadd = 0; // if not 1, the user must be logged in
   protected $adchat =''; // chat text to save
   public $time =0;
 

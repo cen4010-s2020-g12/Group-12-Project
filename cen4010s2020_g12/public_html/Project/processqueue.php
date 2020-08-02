@@ -23,6 +23,11 @@ include 'getvideolength.php';
             		removefromqueue();
             		$initialtime = time();
 			}
+			else {
+				$myfile = fopen("encodevideo", "w") or die("Unable to open file!");
+                                fwrite($myfile, 'empty');
+                                fclose($myfile);
+			}
 			sleep(3);		
 		}
 	}

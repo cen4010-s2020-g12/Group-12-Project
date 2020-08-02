@@ -1,4 +1,8 @@
 // PHP Script Chat - http://coursesweb.net/
+var script = document.createElement('script');
+script.src = 'jquery-3.5.1.js';
+script.type = 'text/javascript';
+document.getElementsByTagName('head')[0].appendChild(script);
 
 var chatfiles ='chatfiles'  //dir with chat files
 var setchat = chatfiles +'/setchat.php';  //php script accessed with ajax
@@ -174,28 +178,10 @@ function getNrChatUsers(){
 }
 
 // Check name /code, set cookie, show field to add chat
-function setNameC(frm) {
-  var chatuser = frm.chatuser.value;
-  // If name not contains only: Letters, Numbers, Space, dash, and "_", between 2 and 12 characters. Or starts /ends with space
-  if (chatuser.match(/^[a-z0-9 _-]{2,12}$/ig) == null || chatuser[0] == ' ' || chatuser[chatuser.length - 1] == ' ') {
-    alert(texts.err_name);
-    frm.chatuser.focus();
-    return false;
-  }
-  // If incorrect code
-  else if (frm.cod.value.length<4 || frm.cod.value!=document.getElementById('code_ch').innerHTML) {
-    alert(texts.err_vcode);
-    document.getElementById('code_ch').style.color = 'red';
-    frm.cod.focus();
-    frm.cod.select();
-    return false;
-  }
-  else if (checkNameC(chatuser)==1) {
-    alert(chatuser+texts.err_nameused);
-    frm.chatuser.select();
-  }
+function setNameC(user) {
+  var chatuser = user;
   // If correct code and name
-  else {
+  
     // Sets data for cookie
     var name_cookie = 'name_c';
     var val_cookie = chatuser;
@@ -208,11 +194,11 @@ function setNameC(frm) {
     // Hides name /code, show field to add text chat, delete the code
     document.getElementById('name_code').style.display = 'none';
     document.getElementById('chatadd').style.display = 'block';
-    frm.cod.value = '';
+    //frm.cod.value = '';
     logoutchat = 0;     // set to not delete the user from list
     refresh_usrs = 0;   // sets to can refresh online users list
     return chatuserset = 1;
-  }
+  
 }
 
 // function called when logged user click to enter in chat
@@ -440,6 +426,10 @@ function apelAjax() {
 
   setTimeout('apelAjax()', 1900);
 }
+
+$.get( "getsession.php", function( data ) {
+  setNameC(data);
+});
 
 //if #chatarea, sets to add style-files and get chat body
 var chatarea = document.getElementById('chatarea');

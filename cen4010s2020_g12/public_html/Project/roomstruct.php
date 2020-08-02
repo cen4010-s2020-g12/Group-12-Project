@@ -1,4 +1,10 @@
 <?php
+    $queue = new SplQueue();
+    $queue -> enqueue('https://www.youtube.com/watch?v=MhgLasBFr6o');
+    $queue -> enqueue('https://www.youtube.com/watch?v=fQVhppRP4Wo');
+    $queue -> enqueue('https://www.youtube.com/watch?v=FGBhQbmPwH8');
+    //serializequeue($queue);
+    
 function serializequeue($vidqueue)
 {
     $serialized = serialize($vidqueue);
@@ -25,10 +31,23 @@ function removefromqueue()
     serializequeue($temp);
 }
 
+function addtoqueue($videourl)
+{
+    $temp = unserializequeue();
+    $temp->enqueue($videourl);
+    serializequeue($temp);
+}
+
 function checkempty()
 {
     $temp = unserializequeue();
     return $temp->isEmpty();
+}
+
+function clearqueue()
+{
+    $clear = new SplQueue();
+    serializequeue($clear);   
 }
 
 function printqueue() 

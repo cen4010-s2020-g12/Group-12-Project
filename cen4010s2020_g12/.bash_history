@@ -1,468 +1,3 @@
-ls
-chmod 777 Project
-cd Project/
-ls
-chmod 777 .
-chmod 0777 .
-ls
-cdmod 777 chattxt/
-chmod 777 chattxt/
-ls
-mv PHPChat VerticalPrototype
-ls
-cd public_html/
-ls
-cd Project/
-ls
-mv js Project
-cd ..
-mv js Project
-ls
-cd Project/
-ls
-cd VerticalPrototype/
-ls
-cat readme.html
-vi readme.html
-ls
-vi test.php
-git
-ls
-cd ~
-;s
-ls
-cat show
-cd show 
-rm show
-ls
-rm composer.phar 
-ls
-mkdir other_files
-ls
-cd public_html/
-ls
-git init
-ls
-rm -rf .git
-ls
-cd ..
-git init
-git add .
-git commit
-git commit -m "Entire Group user directory"
-ls
-git remote add origin https://github.com/cen4010-s2020-g12/lampserver
-git push -u origin master
-The requested URL returned error: 403 Forbidden while accessing https://github.com/git remote remove origindd
-git remote remove origin
-git remote rm origin
-git remote add origin https://github.com/cen4010-s2020-g12/lampserver.git
-git push -u origin master
-The requested URL returned error: 403 Forbidden git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
-git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
-git push -u origin master
-git push origin master
-git remote set-url origin https://github.com/cen4010-s2020-g12/lampserver
-git push origin master
-git remote set-url origin https://github.com/cen4010-s2020-g12/lampserver.git
-git push origin master
-git remote set-url origin git@github.com:cen4010-s2020-g12/lampserver.git
-git push origin master
-The authenticity of host 'github.com (140.82.114.3)' can't be established.
-RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.
-Are you sure you want to continue connecting (yes/no)? yes
-Warning: Permanently added 'github.com,140.82.114.3' (RSA) to the list of known hosts.
-Permission denied (publickey).
-fatal: The remote end hung up unexpectedly
-ls -al ~/.ssh
-ls -al ~/.ssh
-ssh-keygen -t rsa -b 4096 -C madisonverger613@gmail.com
-eval $(ssh-agent -s
-)
-ssh-add ~/.ssh/id_rsa
-ls
-ssh-add ~/.ssh/githubkey
-cd .ssh
-ls
-cat known_hosts 
-ssh-add ~/.ssh/known_hosts 
-Permissions 0644 for '/home/cen4010s2020_g12/.ssh/known_hosts' are too open.
-It is required that your private key files are NOT accessible by others.
-This private key will be ignored.
-chmod 400 ~/.ssh/known_hosts 
-ssh-add ~/.ssh/known_hosts 
-cat .ssh
-cd .ssh
-cd .ssh/
-ls
-cat known_hosts 
-ssh -T git@github.com
-Failed to add the RSA host key for IP address '140.82.114.4' to the list of known hosts (/home/cen4010s2020_g12/.ssh/kn).
-cd ~
-ls
-rm githubkey
-rm githubkey.pub
-git remote set-url origin git@github.com:cen4010-s2020-g12/lampserverasd.git
-git push origin master
-git remote set-url origin git@github.com:cen4010-s2020-g12/lampserver.git
-git push origin master
-ssh-keygen -t rsa -b 4096 -C madisonverger613@gmail.com
-eval $(ssh-agent -s)
-ssh-add ~/.ssh/id_rsa
-cd .ssh
-ls
-cat id_rsa.pub
-git push origin master
-git pull --rebase origin master
-git push origin masterrefusing to pull with rebase: your working tree is not up-to-date
-git pull origin master
-git push origin master
-cd ~
-ls
-cd public_html/
-ls
-cd Project/
-ls
-cd ..
-ls
-cd ..
-ls
-cd public_html/
-ls
-vi indexC.html
-ls
-cd public_html/
-ls
-cat indexC.html 
-vi indexC.html 
-ls
-cd public_html/
-ls
-cd Project/
-ls
-cd VerticalPrototype/
-ls
-vi test.php 
-ls
-cd public_html/
-ls
-cat indexC.html 
-<div id="player"></div>
-    <script>
-      // 2. This code loads the IFrame Player API code asynchronously.
-      var tag = document.createElement('script');
-      tag.src = "https://www.youtube.com/iframe_api";
-      var firstScriptTag = document.getElementsByTagName('script')[0];
-      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-      // 3. This function creates an <iframe> (and YouTube player)
-      //    after the API code downloads.
-        // -----------------------------------------
-        var player;
-      function onYouTubeIframeAPIReady() {         player = new YT.Player('player', {
-          height: '390',
-          width: '640',
-          videoId: 'M7lc1UVf-VE',
-          events: {
-            'onReady': onPlayerReady,
-            'onStateChange': onPlayerStateChange
-        //------------------------------------------------
-          }
-        });
-      }
-      // 4. The API will call this function when the video player is ready.
-      function onPlayerReady(event) {
-        event.target.playVideo();
-        player.loadVideoById("avcGP0FAzB8", 5, "large");
-      }
-      // 5. The API calls this function when the player's state changes.
-      //    The function indicates that when playing a video (state=1),
-      //    the player should play for six seconds and then stop.
-      var done = false;
-      function onPlayerStateChange(event) {
-        if (event.data == YT.PlayerState.PLAYING && !done) {
-          setTimeout(stopVideo, 6000);
-          done = true;
-        }
-      }
-      function stopVideo() {
-        player.stopVideo();
-      }
-
-
-ls
-ls -a
-rm -R .git
-ls
-ls -a .
-git pull https://github.com/cen4010-s2020-g12/Group-12-Project/tree/milestone-3
-ls
-cd public_html/
-ls
-cd Project/
-ls
-cat indexC.html
-cd ..
-cat indexC.html 
-ls
-cd about
-ls
-cd ..
-ls
-vi index.html 
-ls
-cd public_html/
-ls
-cat index
-cat index.html 
-ls
-cd css
-ls
-cd ..
-ls
-cat index.html 
-ls
-vi index.html
-rm index.html
-ls
-touch index.html
-vi index.html
-ls
-vi index.html
-ls
-cd Project/
-ls
-vi roomload.php 
-ls
-cat roomstruct.php 
-ls
-cd public_html/
-ls
-cd Project/
-ls
-cd ..
-ls
-rm indexC.html 
-cd Project/
-ls
-mv index.html index.php
-ls
-cat index.php
-vi index.php
-rm index.php 
-touch index.php
-vi index.php 
-rm index.php 
-vi index.php 
-cat index.php 
-rm index.php 
-vi index.php 
-vi roomload.php
-vi queuestruct.php
-ls
-vi roomstruct.php
-ls
-vi roomstruct.php
-$a = new A;
-  $s = serialize($a);
-  // store $s somewhere where page2.php can find it.
-vi roomstruct.php
-ls
-cat index.php
-ls
-cat roomload.php
-cat roomstruct.php
-vi roomstruct.php
-ls
-cd public_html/
-ls
-cd Project/
-ls
-cat roomstruct.php
-vi roomstruct.php
-ls
-vi roomload.php 
-ls
-cd public_html/
-ls
-cd Project/
-ls
-cat serializedroom 
-ls
-cat roomstruct.php
-vi roomstruct.php 
-ls
-cat serializedroom 
-vi roomstruct.php 
-cp roomstruct.php roomstruct.php.orig
-ls
-vi roomstruct.php
-cat roomstruct.php
-<?php
-    $queue = new SplQueue();
-    $queue -> enqueue('A');
-    $queue -> enqueue('B');
-    $queue -> enqueue('C');
-function serializequeue($vidqueue)
-{     $serialized = serialize($vidqueue);
-    file_put_contents('serializedqueue', $serialized);
-}
-function unserializequeue() {     $s = file_get_contents('serializedqueue');
-    $unserialized = unserialize($s);
-    echo(print_r($unserialized));
-}
-    unserializequeue();
-?>
-ls
-cat roomstruct.php
-ls
-cat roomload.php 
-cat index.php
-vi roomload.php 
-ls
-can index.php
-cat index.php
-ls
-cat roomstruct.php
-vi roomstruct.php
-ls
-cat serializedroom
-cat serializedqueue
-ls
-vi roomstruct.php
-ls
-cat index.php
-cat roomload.php
-vi roomload.php 
-ls
-vi roomstruct.php
-vi roomload.php 
-ls
-vi roomload.php 
-vi roomstruct.php
-vi roomload.php 
-vi roomstruct.php
-ls
-cd public_html/
-ls
-cd Project/
-ls
-cat roomload.php
-vi roomload.php 
-ls
-chmod 777 chattxt/.
-chmod 777 chattxt
-CHMOD 0777 chattxt
-chmod 0777 chattxt
-cd VerticalPrototype/
-ls
-cd ..
-ls
-cd ..
-chmod 0755 Project
-cd Project/
-ls
-chmod 0777 chattxt
-ls
-cat index.php 
-vi roomload.php 
-ls
-cd VerticalPrototype/
-ls
-ls -la
-cd ..
-ls -la
-ls
-chmod 0755 chattxt
-chmod -R 0755 chattxt
-cd VerticalPrototype/
-ls
-cat test.php 
-ls
-cd ..
-ls
-cp -R VerticalPrototype VerticalPrototype2
-cd VerticalPrototype2
-ls
-chmod -R 0777 chattxt
-cat test.php 
-<div id="chatarea" data-style="auto"></div>
-ls
-cd ..
-ls
-vi roomload.php 
-chmod -R 600 .
-ls
-chmod -R 777 .
-ls
-cd ..
-ls
-cd Project/
-chmod -R 0755 .
-cd Project/
-ls
-rm serializedqueue
-ls
-rm serializedroom 
-ls
-chmod 0777 chattxt
-ls
-cd VerticalPr
-cd VerticalPrototype
-ls
-cp -R chattxt ../chattxt
-cd ..
-ls
-cd chattxt
-ls
-cd VerticalPrototype
-cd ..
-ls
-cd VerticalPrototype
-cp chat* ../chat*
-cd ..
-ls
-rm -R chatex
-rm -R chattxt
-rm -R chatfiles
-ls
-cd VerticalPrototype
-ls
-cp -R chatex ../..
-cp -R chatfiles ../..
-cp -R chattxt ../..
-cd ../..
-ls
-cd Project
-ls
-cat roomload.php 
-ls
-cd VerticalPrototype
-ls
-cat test.php
-<div id="chatarea" data-style="auto"></div>
-ls
-cd ..
-ls
-cd ..
-ls
-cp -R chatex Project
-cp -R chatfiles Project
-cp -R chattxt Project
-ls
-chmod 777 chattxt
-cd Project/
-chmod 777 chattxt
-ls
-cd ..
-ls
-chmod 0777 chattxt
-cd Project/
-chmod 0777 chattxt
-cd ..
-ls
-chmod 777 chattxt
-chmod -R chattxt/
-chmod -R chattxt
 chmod -R 777 chattxt
 cd Project/
 chmod -R 777 chattxt
@@ -998,3 +533,468 @@ cd public_html/
 cd Project/
 ls
 pwd
+ls
+cd public_html/
+cd Project/
+ls
+vi processqueue.php 
+php processqueue.php 
+vi processqueue.php 
+php processqueue.php 
+vi storage/queuestatus 
+vi processqueue.php 
+crontab -e
+php processqueue.php 
+vi processqueue.php 
+php processqueue.php 
+crontab -e
+php processqueue.php 
+ls
+cd ..
+ls
+cd ..
+ls
+cd other_files/
+ls
+vi periodic.sh
+ls
+./periodic.sh
+chmod 755 periodic.sh 
+./periodic.sh
+vi periodic.sh
+./periodic.sh
+vi periodic.sh
+./periodic.sh
+vi periodic.sh
+./periodic.sh
+vi periodic.sh
+./periodic.sh
+vi periodic.sh
+./periodic.sh
+vi periodic.sh
+./periodic.sh
+vi periodic.sh
+./periodic.sh
+vi periodic.sh
+./periodic.sh
+vi periodic.sh
+./periodic.sh
+vi periodic.sh
+./periodic.sh
+vi periodic.sh
+./periodic.sh
+vi periodic.sh
+too many arguments
+ps -ef
+kill 32202
+ps -ef
+ps -ef | grep process
+ls
+cd public_html/
+cd {
+cd Project/
+ls
+php processqueue.php 
+pwd
+cd ~
+ls
+cd other_files/
+ls
+rm serializedqueue 
+rm encodevideo 
+./periodic.sh 
+ls
+rm encodevideo 
+rm serializedqueue 
+ls
+vi periodic.sh 
+./periodic.sh 
+ls
+pwd
+cd ~
+ls
+cd public_html/
+ls
+cd Project/
+ls
+cat encode
+cat encodevideo 
+ls
+ps -ef | grep processqueue.php 
+cat Encodevideo 
+ls
+rm encodevideo 
+ls
+rm encodedvideo 
+ls
+cat ls
+rm ls
+ls
+cat app.js
+ls
+vi processqueue.php 
+ps -ef | grep php
+kill 962
+ps -ef | grep php
+cat encodevideo 
+ls
+vi roomstruct.php 
+cat encodevideo 
+vi roomstruct.php 
+cat encodevideo 
+ls
+cd public_html/
+ls
+cd Project/
+ls
+vi processqueue.php 
+ls
+crontab -e
+ps -ef | grep php
+kill 861
+ps -ef | grep php
+mysql
+ls
+cat encodevideo 
+rm Encodevideo 
+vi processqueue.php 
+cd other_files/
+ls
+./periodic.sh 
+vi periodic.sh 
+./periodic.sh 
+vi periodic.sh 
+./periodic.sh 
+vi periodic.sh 
+./periodic.sh 
+vi periodic.sh 
+./periodic.sh 
+vi periodic.sh 
+./periodic.sh 
+vi periodic.sh 
+./periodic.sh 
+vi periodic.sh 
+./periodic.sh 
+vi periodic.sh 
+./periodic.sh 
+vi periodic.sh 
+./periodic.sh 
+vi periodic.sh 
+./periodic.sh 
+vi periodic.sh 
+ps o cmd= -C php | grep processqueue.php
+vi periodic.sh 
+./periodic.sh 
+vi periodic.sh 
+./periodic.sh 
+ps o cmd= -C php | grep processqueue.php
+vi periodic.sh 
+./periodic.sh 
+ps -ef
+ps -ef | grep php
+vi periodic.sh 
+ps -ef | grep php
+./periodic.sh 
+vi periodic.sh 
+./periodic.sh 
+vi periodic.sh 
+./periodic.sh 
+vi periodic.sh 
+./periodic.sh 
+vi periodic.sh 
+./periodic.sh 
+vi periodic.sh 
+./periodic.sh 
+vi periodic.sh 
+./periodic.sh 
+vi periodic.sh 
+crontab -e
+ls
+cd ~/public_html/
+cd Project/
+ls
+vi roomstruct.php 
+php roomstruct.php 
+vi roomstruct.php 
+ls
+cat encodevideo 
+vi processqueue.php 
+ps -ef
+ps -ef | grep php
+kill 1476
+ls
+ps -ef | grep php
+php roomstruct.php 
+vi roomstruct.php 
+php roomstruct.php 
+vi roomstruct.php 
+ls
+cat encodevideo 
+vi roomstruct.php 
+php roomstruct.php 
+vi roomstruct.php 
+ps -ef | grep php
+cat encodevideo 
+vi roomstruct.php 
+vi fillqueue.php
+vi roomstruct.php 
+vi fillqueue.php
+ps -ef | grep php
+cat serializedqueue 
+ls
+php fillqueue.php 
+vi fillqueue.php 
+php fillqueue.php 
+vi fillqueue.php 
+php fillqueue.php 
+cat encodevideo 
+php fillqueue.php 
+ps -ef | grep php
+kill 3588
+ps -ef | grep php
+cd public_html/Project/
+ls
+cat encodevideo
+cat serializedqueue
+cat encodevideo
+ls
+cd public_html/
+cd Project/
+ls
+php fillqueue.php 
+ps -ef
+ps -ef | grep php
+kill 4441
+ps -ef | grep php
+cat encodevideo 
+php fillqueue.php 
+ps -ef | grep php
+kill 12013
+ls
+cd public_html/
+cd Project/
+ls
+vi processqueue.php 
+cd public_html/
+cd Project/
+ls
+cat encodevideo 
+cat serializedqueue 
+php fillqueue.php 
+cat serializedqueue 
+cat encodevideo 
+ls
+vi roomstruct.php 
+cd public_html/
+cd Project/
+ls
+vi roomstruct.php 
+cat serializedqueue 
+cat encodevideo 
+php fillqueue.php 
+cat encodevideo 
+vi fillqueue.php 
+php fillqueue.php 
+ps -ef | grep php
+kill 13214
+ls
+php processqueue.php 
+ls
+cat app.js
+ls
+cat pract.php
+ls
+vi roomload.php 
+cd public_html/Project/
+php fillqueue.php
+cat encodevideo
+cat serializedqueue
+vi fillqueue.php
+php fillqueue.php
+cat serializedqueue
+cat encodevideo
+cat serializedqueue
+encodevideo
+cat encodevideo
+php visualqueue.php
+php fillqueue.php
+cat serializedqueue
+vi fillqueue.php
+php fillqueue.php
+cat serializedqueue.php
+cat serializedqueue
+cat encodevideo
+php visualqueue.php
+vi visualqueue.php
+php visualqueue.php
+php fillqueue.php
+php visualqueue.php
+vi roomload.php
+php visualqueue.php
+php fillqueue.php
+cat encodevideo
+php fillqueue.php
+cat encodevideo
+php fillqueue.php
+fillqueue.php
+cat serializedqueue
+php fillqueue.php
+cat serializedqueue.php
+cat serializedqueue
+cat encodevideo
+cd public_html/
+cd Project/
+ls
+vi getsession.php
+ls
+ls chatfiles
+cd public_html/Project/
+vi roomstruct.php
+cat serializedqueue
+cat encodevideo
+cd public_html/
+cd Project/
+ls
+cat roomstruct.php 
+vi roomstruct.php 
+ls
+vi processqueue.php 
+php processqueue.php 
+vi roomstruct.php 
+vi clearqueue.php
+vi roomstruct.php 
+cat serializedqueue 
+php clearqueue.php 
+cat serializedqueue 
+vi clearqueue.php 
+vi roomstruct.php 
+php clearqueue.php 
+cat serializedqueue 
+vi roomstruct.php 
+vi clearqueue.php 
+php clearqueue.php 
+cat serializedqueue 
+vi roomstruct.php 
+php roomstruct.php 
+cat serializedqueue 
+cat encodevideo 
+ps -ef | grep php
+kill 14863
+ps -ef | grep php
+cat encodevideo 
+ls
+cat fillqueue.php 
+php fillqueue.php 
+cat encodevideo 
+cat serializedqueue 
+php fillqueue.php 
+cat serializedqueue 
+ps -ef | grep php
+kill 19293
+php processqueue.php 
+cat serializedqueue 
+cd public_html/Project/
+vi roomstruct.php
+cat encodevideo
+cat serializedqueue
+vi clearqueue.php
+vi roomstruct.php
+cat encodevideo
+vi processqueue.php
+vi roomstruct.php
+vi processqueue.php
+cat encodevideo
+vi index.php
+php clearqueue.php
+php fillqueue.php
+cat serializedqueue.php
+cat serializedqueue
+php clearqueue.php
+cat serializedqueue
+cd public_html/
+cd Project/
+ls
+cat serializedqueue 
+php fillqueue.php 
+cat serializedqueue 
+cat encodevideo 
+ps -ef | grep php
+kill 19319
+php processqueue.php 
+vi processqueue.php 
+cat serializedqueue 
+vi roomstruct.php 
+php fillqueue.php 
+ps -ef | grep php
+cat serializedqueue 
+ps -ef | grep php
+vi processqueue.php 
+ps -ef | grep php
+kill 14584
+kill 19774
+php processqueue.php 
+cd public_html/Project/
+cat serializedqueue 
+cd public_html/
+cd Project/
+ls
+vi roomstruct.php 
+cd public_html/Project/
+cat encodevideo
+cat serializedqueue
+php fillqueue.php
+cat serializedqueue
+php clearqueue.php
+cat serializedqueue
+cd public_html/Project/
+ls
+cd sea
+cd searchtest/
+vi app.js
+ls
+vi index.html
+vi app.js
+cd public_html/Project/
+ls
+vi app.js
+ls
+pwd
+vi app.js
+cat app.js
+ls
+cd searchtest/
+ls
+cat index.html 
+vi index.html 
+ls
+vi app.js 
+ls
+vi index.html 
+vi app.js 
+cp app.js app.js.orig
+ls
+cd ..
+ls
+cd searchtest/
+ls
+cd ..
+ls
+cd public_html/P
+cd public_html/Project/
+cat serializedqueue
+php clearqueue.php
+cat serializedqueue
+cd public_html/Project/
+l
+ls
+cd searchtest/
+ls
+vi index.html 
+ls
+vi item.html 
+ls
+vi app.js
+vi item.html 
+vi app.js
+vi item.html 
+vi app.js

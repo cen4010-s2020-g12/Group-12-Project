@@ -38,7 +38,7 @@ $alink = (CHATLINK === 1) ? '<img src="chatex/url.png" alt="URL" title="Link" on
   <img src="chatex/9.gif" alt=":-*" title=":-*" onclick="addSmile(':-*', 'adchat');" /></div>
   <input type="text" name="adchat" id="adchat" size="88" maxlength="230" /> &nbsp; 
   <input type="submit" value="<?php echo $this->lsite['chat']; ?>" id="submit"/>
-  <div id="logoutchat" onclick="delCookie('name_c')"><?php echo $this->lsite['logoutchat']; ?></div>
+  
   <a href="http://coursesweb.net/" title="Web Programming Development Courses" target="_blank" id="mp">CoursesWeb.net</a>
  </div>
 </form>
